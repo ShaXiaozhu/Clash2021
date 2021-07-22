@@ -29,10 +29,17 @@ proxies:
   - {name: 🇺🇸 美国6225（小猪）, server: 207.244.84.40, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 🇭🇰 香港37（小猪）, server: 212.102.42.199, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: 🇭🇰 香港38（小猪）, server: 212.102.42.194, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇭🇰 香港41（小猪）, server: 84.17.57.73, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇭🇰 香港40（小猪）, server: 212.102.42.194, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇭🇰 香港39（小猪）, server: 212.102.42.199, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: 🇨🇦 加拿大10（小猪）, server: ss5.ssrsub.one, port: 6443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
   - {name: 🇨🇦 加拿大09（小猪）, server: ss6.ssrsub.one, port: 5443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
   - {name: 🇦🇺 澳大利亚1287（小猪）, server: 139.99.201.56, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: kRAxb8hPUxS0}
   - {name: 自强01（小猪）, server: 82.102.26.117, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 自强02（小猪）, server: 138.199.40.172, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 自强03（小猪）, server: 138.199.19.182, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 自强04（小猪）, server: 138.199.19.162, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 自强05（小猪）, server: 138.199.19.154, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -63,10 +70,17 @@ proxy-groups:
       - 🇺🇸 美国6225（小猪）
       - 🇭🇰 香港37（小猪）
       - 🇭🇰 香港38（小猪）
+      - 🇭🇰 香港41（小猪）
+      - 🇭🇰 香港40（小猪）
+      - 🇭🇰 香港39（小猪）
       - 🇨🇦 加拿大10（小猪）
       - 🇨🇦 加拿大09（小猪）
       - 🇦🇺 澳大利亚1287（小猪）
       - 自强01（小猪）
+      - 自强02（小猪）
+      - 自强03（小猪）
+      - 自强04（小猪）
+      - 自强05（小猪）
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -97,10 +111,17 @@ proxy-groups:
       - 🇺🇸 美国6225（小猪）
       - 🇭🇰 香港37（小猪）
       - 🇭🇰 香港38（小猪）
+      - 🇭🇰 香港41（小猪）
+      - 🇭🇰 香港40（小猪）
+      - 🇭🇰 香港39（小猪）
       - 🇨🇦 加拿大10（小猪）
       - 🇨🇦 加拿大09（小猪）
       - 🇦🇺 澳大利亚1287（小猪）
       - 自强01（小猪）
+      - 自强02（小猪）
+      - 自强03（小猪）
+      - 自强04（小猪）
+      - 自强05（小猪）
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -131,10 +152,17 @@ proxy-groups:
       - 🇺🇸 美国6225（小猪）
       - 🇭🇰 香港37（小猪）
       - 🇭🇰 香港38（小猪）
+      - 🇭🇰 香港41（小猪）
+      - 🇭🇰 香港40（小猪）
+      - 🇭🇰 香港39（小猪）
       - 🇨🇦 加拿大10（小猪）
       - 🇨🇦 加拿大09（小猪）
       - 🇦🇺 澳大利亚1287（小猪）
       - 自强01（小猪）
+      - 自强02（小猪）
+      - 自强03（小猪）
+      - 自强04（小猪）
+      - 自强05（小猪）
   - name: 📲 电报信息
     type: select
     proxies:
@@ -164,10 +192,17 @@ proxy-groups:
       - 🇺🇸 美国6225（小猪）
       - 🇭🇰 香港37（小猪）
       - 🇭🇰 香港38（小猪）
+      - 🇭🇰 香港41（小猪）
+      - 🇭🇰 香港40（小猪）
+      - 🇭🇰 香港39（小猪）
       - 🇨🇦 加拿大10（小猪）
       - 🇨🇦 加拿大09（小猪）
       - 🇦🇺 澳大利亚1287（小猪）
       - 自强01（小猪）
+      - 自强02（小猪）
+      - 自强03（小猪）
+      - 自强04（小猪）
+      - 自强05（小猪）
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -197,10 +232,17 @@ proxy-groups:
       - 🇺🇸 美国6225（小猪）
       - 🇭🇰 香港37（小猪）
       - 🇭🇰 香港38（小猪）
+      - 🇭🇰 香港41（小猪）
+      - 🇭🇰 香港40（小猪）
+      - 🇭🇰 香港39（小猪）
       - 🇨🇦 加拿大10（小猪）
       - 🇨🇦 加拿大09（小猪）
       - 🇦🇺 澳大利亚1287（小猪）
       - 自强01（小猪）
+      - 自强02（小猪）
+      - 自强03（小猪）
+      - 自强04（小猪）
+      - 自强05（小猪）
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -230,10 +272,17 @@ proxy-groups:
       - 🇺🇸 美国6225（小猪）
       - 🇭🇰 香港37（小猪）
       - 🇭🇰 香港38（小猪）
+      - 🇭🇰 香港41（小猪）
+      - 🇭🇰 香港40（小猪）
+      - 🇭🇰 香港39（小猪）
       - 🇨🇦 加拿大10（小猪）
       - 🇨🇦 加拿大09（小猪）
       - 🇦🇺 澳大利亚1287（小猪）
       - 自强01（小猪）
+      - 自强02（小猪）
+      - 自强03（小猪）
+      - 自强04（小猪）
+      - 自强05（小猪）
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -264,10 +313,17 @@ proxy-groups:
       - 🇺🇸 美国6225（小猪）
       - 🇭🇰 香港37（小猪）
       - 🇭🇰 香港38（小猪）
+      - 🇭🇰 香港41（小猪）
+      - 🇭🇰 香港40（小猪）
+      - 🇭🇰 香港39（小猪）
       - 🇨🇦 加拿大10（小猪）
       - 🇨🇦 加拿大09（小猪）
       - 🇦🇺 澳大利亚1287（小猪）
       - 自强01（小猪）
+      - 自强02（小猪）
+      - 自强03（小猪）
+      - 自强04（小猪）
+      - 自强05（小猪）
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -314,10 +370,17 @@ proxy-groups:
       - 🇺🇸 美国6225（小猪）
       - 🇭🇰 香港37（小猪）
       - 🇭🇰 香港38（小猪）
+      - 🇭🇰 香港41（小猪）
+      - 🇭🇰 香港40（小猪）
+      - 🇭🇰 香港39（小猪）
       - 🇨🇦 加拿大10（小猪）
       - 🇨🇦 加拿大09（小猪）
       - 🇦🇺 澳大利亚1287（小猪）
       - 自强01（小猪）
+      - 自强02（小猪）
+      - 自强03（小猪）
+      - 自强04（小猪）
+      - 自强05（小猪）
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
