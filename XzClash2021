@@ -6,57 +6,58 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇯🇵 日本01（小猪）, server: 84.17.34.24, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇯🇵 日本 02（小猪）, server: 89.187.161.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇦🇺 澳大利亚1287（小猪）, server: 139.99.201.56, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: kRAxb8hPUxS0}
-  - {name: 🇦🇺 澳大利亚8229（小猪）, server: 37.19.199.224, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 🇦🇺 澳大利亚8230（小猪）, server: 37.19.199.224, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇦🇺 澳大利亚8233（小猪）, server: 37.19.199.224, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇦🇺 澳大利亚8242（小猪）, server: 37.19.199.224, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇦🇺 澳大利亚8243（小猪）, server: 37.19.199.224, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇦🇺 澳大利亚8246（小猪）, server: 37.19.199.224, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇦🇺 澳大利亚8278（小猪）, server: 37.19.199.224, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇦🇺 澳大利亚8279（小猪）, server: 37.19.199.224, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇦🇺 澳大利亚8291（小猪）, server: 37.19.199.224, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇦🇺 澳大利亚8295（小猪）, server: 37.19.199.224, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国11644（小猪）, server: 154.17.2.160, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 美国5217（小猪）, server: 154.17.2.31, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 美国5361（小猪）, server: 154.17.2.117, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: 2SYSIDnBqT5eCl736xlD4yODaXaSF9EeNp3OZcpjyC8ARYwA0zgC83aKxFZRu3}
-  - {name: 🇺🇸 美国5365（小猪）, server: 154.17.1.245, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 美国5369（小猪）, server: 154.17.2.135, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 美国5371（小猪）, server: 154.17.2.109, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: l3Y9yKCBaT5SnpFFOe834yqIaXwSpRxz3l7D3Aua82ZgcSNZDCO6AexYDCE0Rj}
-  - {name: 🇺🇸 美国5376（小猪）, server: 154.17.2.95, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 美国5378（小猪）, server: 154.17.1.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 美国5441（小猪）, server: 154.17.2.112, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: N0KSFR6alSxjgp7T8Aa9Ce8DnCaAOYqz5lFZxe3O2I3uycYZXEDp3S34RyCDwB}
-  - {name: 🇺🇸 美国6322（小猪）, server: 154.17.2.162, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 美国9837（小猪）, server: 154.17.2.54, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: YazuZ2ZE9p5Rn3CANKlD6SqC0OTSyXBIReypacD4Fae8gx87lOD3SY33jFAwCx}
-  - {name: 🇭🇰 香港1997（小猪）, server: hk-route-12369-1.dukou.info, port: 8301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route-12369-1.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 香港1998（小猪）, server: tw-cn-hk-relay-2-184a76.dukou.info, port: 5302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw-cn-hk-relay-2-184a76.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2006（小猪）, server: hk11-5423.dukouplan3.dev, port: 8011, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk11-5423.dukouplan3.dev, skip-cert-verify: false}
-  - {name: 🇭🇰 香港37（小猪）, server: 212.102.42.199, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇭🇰 香港38（小猪）, server: 212.102.42.194, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇭🇰 香港4604（小猪）, server: 118.107.244.111, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇯🇵 日本02（小猪）, server: 89.187.161.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇸🇬 新加坡7896（小猪）, server: 54.251.189.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: Bfqb8UBN3lmnDiud++hv6w==}
-  - {name: 自强12544（小猪）, server: 138.199.40.172, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 自强12626（小猪）, server: 138.199.40.172, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 波兰PL_6852（小猪）, server: 5.187.53.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇴 罗马尼亚RO_7117（小猪）, server: 194.37.96.211, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇷🇴 罗马尼亚RO_7146（小猪）, server: 79.110.54.123, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇷🇴 罗马尼亚RO_7198（小猪）, server: 194.37.96.211, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇷🇴 罗马尼亚RO_7408（小猪）, server: 194.37.96.211, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇷🇴 罗马尼亚RO_7419（小猪）, server: 194.37.96.211, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇷🇴 罗马尼亚RO_7588（小猪）, server: 79.110.54.123, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇷🇴 罗马尼亚RO_7637（小猪）, server: 79.110.54.123, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇷🇴 罗马尼亚RO_7715（小猪）, server: 193.29.106.155, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 🇷🇴 罗马尼亚RO_7801（小猪）, server: 79.110.54.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇷🇴 罗马尼亚RO_7817（小猪）, server: 193.29.106.59, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇺🇸 美国US_10270（小猪）, server: 199.58.187.5, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇺🇸 美国US_11278（小猪）, server: 23.105.163.109, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 美国US_11352（小猪）, server: 212.102.46.69, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇺🇸 美国US_11353（小猪）, server: 212.102.46.69, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇺🇸 美国US_11373（小猪）, server: 212.102.46.69, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 🇺🇸 美国US_11449（小猪）, server: 212.102.46.69, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 🇺🇸 美国US_11676（小猪）, server: 212.102.46.69, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇺🇸 美国US_11703（小猪）, server: 212.102.46.69, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇺🇸 美国US_2278（小猪）, server: 143.244.60.167, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国US_78（小猪）, server: 212.102.44.93, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国US_8524（小猪）, server: 89.187.175.165, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇺🇸 美国US_8726（小猪）, server: 199.58.187.5, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇺🇸 美国US_8771（小猪）, server: 84.17.41.73, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 🇺🇸 美国US_8955（小猪）, server: 89.187.175.167, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇺🇸 美国US_9177（小猪）, server: 89.187.175.165, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸 美国US_9210（小猪）, server: 89.187.175.165, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇺🇸 美国US_9254（小猪）, server: 89.187.175.165, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇺🇸 美国US_9490（小猪）, server: 148.72.174.41, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国US_9760（小猪）, server: 89.187.175.165, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 斯洛伐克SK_8325（小猪）, server: 193.37.255.35, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾TW_8418（小猪）, server: 2.58.242.51, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 台湾TW_8419（小猪）, server: 2.58.241.5, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: 🇨🇳 台湾TW_8446（小猪）, server: 2.58.241.5, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: 🇬🇧 英国GB_4395（小猪）, server: 81.19.210.241, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 英国GB_4398（小猪）, server: 89.238.130.235, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇬🇧 英国GB_4528（小猪）, server: 89.238.130.235, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇬🇧 英国GB_4561（小猪）, server: 89.238.130.235, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇬🇧 英国GB_4563（小猪）, server: 89.238.130.235, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇬🇧 英国GB_4669（小猪）, server: 89.238.130.235, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇬🇧 英国GB_4697（小猪）, server: 89.238.130.235, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇬🇧 英国GB_4925（小猪）, server: 195.181.171.241, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 自强_115（小猪）, server: 193.29.106.85, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 自强_265（小猪）, server: 198.147.22.147, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 自强_445（小猪）, server: 89.187.175.167, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: 自强12631（小猪）, server: 138.199.40.172, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 自强12632（小猪）, server: 138.199.40.172, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 自强12649（小猪）, server: 138.199.40.172, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 自强12669（小猪）, server: 138.199.40.172, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 自强12670（小猪）, server: 138.199.40.172, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 自强12697（小猪）, server: 138.199.40.172, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 自强12698（小猪）, server: 138.199.40.172, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 自强12699（小猪）, server: 138.199.40.172, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 自强12700（小猪）, server: 138.199.40.172, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 自强12701（小猪）, server: 138.199.40.172, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 自强12702（小猪）, server: 138.199.40.172, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 自强12703（小猪）, server: 138.199.40.172, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 自强12705（小猪）, server: 138.199.40.172, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 自强12719（小猪）, server: 138.199.19.184, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 自强12756（小猪）, server: 138.199.40.172, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
   - {name: 自强156（小猪）, server: 143.244.57.99, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
   - {name: 自强165（小猪）, server: 143.244.57.99, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: 自强171（小猪）, server: 138.199.19.132, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 自强375（小猪）, server: 138.199.16.137, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 自强ZZ_12287（小猪）, server: 103.152.151.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 自强ZZ_12432（小猪）, server: 103.152.151.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -64,57 +65,58 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇯🇵 日本01（小猪）
-      - 🇯🇵 日本 02（小猪）
-      - 🇦🇺 澳大利亚1287（小猪）
-      - 🇦🇺 澳大利亚8229（小猪）
-      - 🇦🇺 澳大利亚8230（小猪）
-      - 🇦🇺 澳大利亚8233（小猪）
-      - 🇦🇺 澳大利亚8242（小猪）
-      - 🇦🇺 澳大利亚8243（小猪）
-      - 🇦🇺 澳大利亚8246（小猪）
-      - 🇦🇺 澳大利亚8278（小猪）
-      - 🇦🇺 澳大利亚8279（小猪）
-      - 🇦🇺 澳大利亚8291（小猪）
-      - 🇦🇺 澳大利亚8295（小猪）
-      - 🇺🇸 美国11644（小猪）
-      - 🇺🇸 美国5217（小猪）
-      - 🇺🇸 美国5361（小猪）
-      - 🇺🇸 美国5365（小猪）
-      - 🇺🇸 美国5369（小猪）
-      - 🇺🇸 美国5371（小猪）
-      - 🇺🇸 美国5376（小猪）
-      - 🇺🇸 美国5378（小猪）
-      - 🇺🇸 美国5441（小猪）
-      - 🇺🇸 美国6322（小猪）
-      - 🇺🇸 美国9837（小猪）
-      - 🇭🇰 香港1997（小猪）
-      - 🇭🇰 香港1998（小猪）
-      - 🇭🇰 香港2006（小猪）
-      - 🇭🇰 香港37（小猪）
-      - 🇭🇰 香港38（小猪）
-      - 🇭🇰 香港4604（小猪）
+      - 🇯🇵 日本02（小猪）
       - 🇸🇬 新加坡7896（小猪）
-      - 自强12544（小猪）
-      - 自强12626（小猪）
+      - 波兰PL_6852（小猪）
+      - 🇷🇴 罗马尼亚RO_7117（小猪）
+      - 🇷🇴 罗马尼亚RO_7146（小猪）
+      - 🇷🇴 罗马尼亚RO_7198（小猪）
+      - 🇷🇴 罗马尼亚RO_7408（小猪）
+      - 🇷🇴 罗马尼亚RO_7419（小猪）
+      - 🇷🇴 罗马尼亚RO_7588（小猪）
+      - 🇷🇴 罗马尼亚RO_7637（小猪）
+      - 🇷🇴 罗马尼亚RO_7715（小猪）
+      - 🇷🇴 罗马尼亚RO_7801（小猪）
+      - 🇷🇴 罗马尼亚RO_7817（小猪）
+      - 🇺🇸 美国US_10270（小猪）
+      - 🇺🇸 美国US_11278（小猪）
+      - 🇺🇸 美国US_11352（小猪）
+      - 🇺🇸 美国US_11353（小猪）
+      - 🇺🇸 美国US_11373（小猪）
+      - 🇺🇸 美国US_11449（小猪）
+      - 🇺🇸 美国US_11676（小猪）
+      - 🇺🇸 美国US_11703（小猪）
+      - 🇺🇸 美国US_2278（小猪）
+      - 🇺🇸 美国US_78（小猪）
+      - 🇺🇸 美国US_8524（小猪）
+      - 🇺🇸 美国US_8726（小猪）
+      - 🇺🇸 美国US_8771（小猪）
+      - 🇺🇸 美国US_8955（小猪）
+      - 🇺🇸 美国US_9177（小猪）
+      - 🇺🇸 美国US_9210（小猪）
+      - 🇺🇸 美国US_9254（小猪）
+      - 🇺🇸 美国US_9490（小猪）
+      - 🇺🇸 美国US_9760（小猪）
+      - 斯洛伐克SK_8325（小猪）
+      - 🇨🇳 台湾TW_8418（小猪）
+      - 🇨🇳 台湾TW_8419（小猪）
+      - 🇨🇳 台湾TW_8446（小猪）
+      - 🇬🇧 英国GB_4395（小猪）
+      - 🇬🇧 英国GB_4398（小猪）
+      - 🇬🇧 英国GB_4528（小猪）
+      - 🇬🇧 英国GB_4561（小猪）
+      - 🇬🇧 英国GB_4563（小猪）
+      - 🇬🇧 英国GB_4669（小猪）
+      - 🇬🇧 英国GB_4697（小猪）
+      - 🇬🇧 英国GB_4925（小猪）
+      - 自强_115（小猪）
+      - 自强_265（小猪）
+      - 自强_445（小猪）
       - 自强12631（小猪）
-      - 自强12632（小猪）
-      - 自强12649（小猪）
-      - 自强12669（小猪）
-      - 自强12670（小猪）
-      - 自强12697（小猪）
-      - 自强12698（小猪）
-      - 自强12699（小猪）
-      - 自强12700（小猪）
-      - 自强12701（小猪）
-      - 自强12702（小猪）
-      - 自强12703（小猪）
-      - 自强12705（小猪）
-      - 自强12719（小猪）
-      - 自强12756（小猪）
       - 自强156（小猪）
       - 自强165（小猪）
-      - 自强171（小猪）
-      - 自强375（小猪）
+      - 自强ZZ_12287（小猪）
+      - 自强ZZ_12432（小猪）
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -122,57 +124,58 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇯🇵 日本01（小猪）
-      - 🇯🇵 日本 02（小猪）
-      - 🇦🇺 澳大利亚1287（小猪）
-      - 🇦🇺 澳大利亚8229（小猪）
-      - 🇦🇺 澳大利亚8230（小猪）
-      - 🇦🇺 澳大利亚8233（小猪）
-      - 🇦🇺 澳大利亚8242（小猪）
-      - 🇦🇺 澳大利亚8243（小猪）
-      - 🇦🇺 澳大利亚8246（小猪）
-      - 🇦🇺 澳大利亚8278（小猪）
-      - 🇦🇺 澳大利亚8279（小猪）
-      - 🇦🇺 澳大利亚8291（小猪）
-      - 🇦🇺 澳大利亚8295（小猪）
-      - 🇺🇸 美国11644（小猪）
-      - 🇺🇸 美国5217（小猪）
-      - 🇺🇸 美国5361（小猪）
-      - 🇺🇸 美国5365（小猪）
-      - 🇺🇸 美国5369（小猪）
-      - 🇺🇸 美国5371（小猪）
-      - 🇺🇸 美国5376（小猪）
-      - 🇺🇸 美国5378（小猪）
-      - 🇺🇸 美国5441（小猪）
-      - 🇺🇸 美国6322（小猪）
-      - 🇺🇸 美国9837（小猪）
-      - 🇭🇰 香港1997（小猪）
-      - 🇭🇰 香港1998（小猪）
-      - 🇭🇰 香港2006（小猪）
-      - 🇭🇰 香港37（小猪）
-      - 🇭🇰 香港38（小猪）
-      - 🇭🇰 香港4604（小猪）
+      - 🇯🇵 日本02（小猪）
       - 🇸🇬 新加坡7896（小猪）
-      - 自强12544（小猪）
-      - 自强12626（小猪）
+      - 波兰PL_6852（小猪）
+      - 🇷🇴 罗马尼亚RO_7117（小猪）
+      - 🇷🇴 罗马尼亚RO_7146（小猪）
+      - 🇷🇴 罗马尼亚RO_7198（小猪）
+      - 🇷🇴 罗马尼亚RO_7408（小猪）
+      - 🇷🇴 罗马尼亚RO_7419（小猪）
+      - 🇷🇴 罗马尼亚RO_7588（小猪）
+      - 🇷🇴 罗马尼亚RO_7637（小猪）
+      - 🇷🇴 罗马尼亚RO_7715（小猪）
+      - 🇷🇴 罗马尼亚RO_7801（小猪）
+      - 🇷🇴 罗马尼亚RO_7817（小猪）
+      - 🇺🇸 美国US_10270（小猪）
+      - 🇺🇸 美国US_11278（小猪）
+      - 🇺🇸 美国US_11352（小猪）
+      - 🇺🇸 美国US_11353（小猪）
+      - 🇺🇸 美国US_11373（小猪）
+      - 🇺🇸 美国US_11449（小猪）
+      - 🇺🇸 美国US_11676（小猪）
+      - 🇺🇸 美国US_11703（小猪）
+      - 🇺🇸 美国US_2278（小猪）
+      - 🇺🇸 美国US_78（小猪）
+      - 🇺🇸 美国US_8524（小猪）
+      - 🇺🇸 美国US_8726（小猪）
+      - 🇺🇸 美国US_8771（小猪）
+      - 🇺🇸 美国US_8955（小猪）
+      - 🇺🇸 美国US_9177（小猪）
+      - 🇺🇸 美国US_9210（小猪）
+      - 🇺🇸 美国US_9254（小猪）
+      - 🇺🇸 美国US_9490（小猪）
+      - 🇺🇸 美国US_9760（小猪）
+      - 斯洛伐克SK_8325（小猪）
+      - 🇨🇳 台湾TW_8418（小猪）
+      - 🇨🇳 台湾TW_8419（小猪）
+      - 🇨🇳 台湾TW_8446（小猪）
+      - 🇬🇧 英国GB_4395（小猪）
+      - 🇬🇧 英国GB_4398（小猪）
+      - 🇬🇧 英国GB_4528（小猪）
+      - 🇬🇧 英国GB_4561（小猪）
+      - 🇬🇧 英国GB_4563（小猪）
+      - 🇬🇧 英国GB_4669（小猪）
+      - 🇬🇧 英国GB_4697（小猪）
+      - 🇬🇧 英国GB_4925（小猪）
+      - 自强_115（小猪）
+      - 自强_265（小猪）
+      - 自强_445（小猪）
       - 自强12631（小猪）
-      - 自强12632（小猪）
-      - 自强12649（小猪）
-      - 自强12669（小猪）
-      - 自强12670（小猪）
-      - 自强12697（小猪）
-      - 自强12698（小猪）
-      - 自强12699（小猪）
-      - 自强12700（小猪）
-      - 自强12701（小猪）
-      - 自强12702（小猪）
-      - 自强12703（小猪）
-      - 自强12705（小猪）
-      - 自强12719（小猪）
-      - 自强12756（小猪）
       - 自强156（小猪）
       - 自强165（小猪）
-      - 自强171（小猪）
-      - 自强375（小猪）
+      - 自强ZZ_12287（小猪）
+      - 自强ZZ_12432（小猪）
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -180,228 +183,232 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇯🇵 日本01（小猪）
-      - 🇯🇵 日本 02（小猪）
-      - 🇦🇺 澳大利亚1287（小猪）
-      - 🇦🇺 澳大利亚8229（小猪）
-      - 🇦🇺 澳大利亚8230（小猪）
-      - 🇦🇺 澳大利亚8233（小猪）
-      - 🇦🇺 澳大利亚8242（小猪）
-      - 🇦🇺 澳大利亚8243（小猪）
-      - 🇦🇺 澳大利亚8246（小猪）
-      - 🇦🇺 澳大利亚8278（小猪）
-      - 🇦🇺 澳大利亚8279（小猪）
-      - 🇦🇺 澳大利亚8291（小猪）
-      - 🇦🇺 澳大利亚8295（小猪）
-      - 🇺🇸 美国11644（小猪）
-      - 🇺🇸 美国5217（小猪）
-      - 🇺🇸 美国5361（小猪）
-      - 🇺🇸 美国5365（小猪）
-      - 🇺🇸 美国5369（小猪）
-      - 🇺🇸 美国5371（小猪）
-      - 🇺🇸 美国5376（小猪）
-      - 🇺🇸 美国5378（小猪）
-      - 🇺🇸 美国5441（小猪）
-      - 🇺🇸 美国6322（小猪）
-      - 🇺🇸 美国9837（小猪）
-      - 🇭🇰 香港1997（小猪）
-      - 🇭🇰 香港1998（小猪）
-      - 🇭🇰 香港2006（小猪）
-      - 🇭🇰 香港37（小猪）
-      - 🇭🇰 香港38（小猪）
-      - 🇭🇰 香港4604（小猪）
+      - 🇯🇵 日本02（小猪）
       - 🇸🇬 新加坡7896（小猪）
-      - 自强12544（小猪）
-      - 自强12626（小猪）
+      - 波兰PL_6852（小猪）
+      - 🇷🇴 罗马尼亚RO_7117（小猪）
+      - 🇷🇴 罗马尼亚RO_7146（小猪）
+      - 🇷🇴 罗马尼亚RO_7198（小猪）
+      - 🇷🇴 罗马尼亚RO_7408（小猪）
+      - 🇷🇴 罗马尼亚RO_7419（小猪）
+      - 🇷🇴 罗马尼亚RO_7588（小猪）
+      - 🇷🇴 罗马尼亚RO_7637（小猪）
+      - 🇷🇴 罗马尼亚RO_7715（小猪）
+      - 🇷🇴 罗马尼亚RO_7801（小猪）
+      - 🇷🇴 罗马尼亚RO_7817（小猪）
+      - 🇺🇸 美国US_10270（小猪）
+      - 🇺🇸 美国US_11278（小猪）
+      - 🇺🇸 美国US_11352（小猪）
+      - 🇺🇸 美国US_11353（小猪）
+      - 🇺🇸 美国US_11373（小猪）
+      - 🇺🇸 美国US_11449（小猪）
+      - 🇺🇸 美国US_11676（小猪）
+      - 🇺🇸 美国US_11703（小猪）
+      - 🇺🇸 美国US_2278（小猪）
+      - 🇺🇸 美国US_78（小猪）
+      - 🇺🇸 美国US_8524（小猪）
+      - 🇺🇸 美国US_8726（小猪）
+      - 🇺🇸 美国US_8771（小猪）
+      - 🇺🇸 美国US_8955（小猪）
+      - 🇺🇸 美国US_9177（小猪）
+      - 🇺🇸 美国US_9210（小猪）
+      - 🇺🇸 美国US_9254（小猪）
+      - 🇺🇸 美国US_9490（小猪）
+      - 🇺🇸 美国US_9760（小猪）
+      - 斯洛伐克SK_8325（小猪）
+      - 🇨🇳 台湾TW_8418（小猪）
+      - 🇨🇳 台湾TW_8419（小猪）
+      - 🇨🇳 台湾TW_8446（小猪）
+      - 🇬🇧 英国GB_4395（小猪）
+      - 🇬🇧 英国GB_4398（小猪）
+      - 🇬🇧 英国GB_4528（小猪）
+      - 🇬🇧 英国GB_4561（小猪）
+      - 🇬🇧 英国GB_4563（小猪）
+      - 🇬🇧 英国GB_4669（小猪）
+      - 🇬🇧 英国GB_4697（小猪）
+      - 🇬🇧 英国GB_4925（小猪）
+      - 自强_115（小猪）
+      - 自强_265（小猪）
+      - 自强_445（小猪）
       - 自强12631（小猪）
-      - 自强12632（小猪）
-      - 自强12649（小猪）
-      - 自强12669（小猪）
-      - 自强12670（小猪）
-      - 自强12697（小猪）
-      - 自强12698（小猪）
-      - 自强12699（小猪）
-      - 自强12700（小猪）
-      - 自强12701（小猪）
-      - 自强12702（小猪）
-      - 自强12703（小猪）
-      - 自强12705（小猪）
-      - 自强12719（小猪）
-      - 自强12756（小猪）
       - 自强156（小猪）
       - 自强165（小猪）
-      - 自强171（小猪）
-      - 自强375（小猪）
+      - 自强ZZ_12287（小猪）
+      - 自强ZZ_12432（小猪）
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇯🇵 日本01（小猪）
-      - 🇯🇵 日本 02（小猪）
-      - 🇦🇺 澳大利亚1287（小猪）
-      - 🇦🇺 澳大利亚8229（小猪）
-      - 🇦🇺 澳大利亚8230（小猪）
-      - 🇦🇺 澳大利亚8233（小猪）
-      - 🇦🇺 澳大利亚8242（小猪）
-      - 🇦🇺 澳大利亚8243（小猪）
-      - 🇦🇺 澳大利亚8246（小猪）
-      - 🇦🇺 澳大利亚8278（小猪）
-      - 🇦🇺 澳大利亚8279（小猪）
-      - 🇦🇺 澳大利亚8291（小猪）
-      - 🇦🇺 澳大利亚8295（小猪）
-      - 🇺🇸 美国11644（小猪）
-      - 🇺🇸 美国5217（小猪）
-      - 🇺🇸 美国5361（小猪）
-      - 🇺🇸 美国5365（小猪）
-      - 🇺🇸 美国5369（小猪）
-      - 🇺🇸 美国5371（小猪）
-      - 🇺🇸 美国5376（小猪）
-      - 🇺🇸 美国5378（小猪）
-      - 🇺🇸 美国5441（小猪）
-      - 🇺🇸 美国6322（小猪）
-      - 🇺🇸 美国9837（小猪）
-      - 🇭🇰 香港1997（小猪）
-      - 🇭🇰 香港1998（小猪）
-      - 🇭🇰 香港2006（小猪）
-      - 🇭🇰 香港37（小猪）
-      - 🇭🇰 香港38（小猪）
-      - 🇭🇰 香港4604（小猪）
+      - 🇯🇵 日本02（小猪）
       - 🇸🇬 新加坡7896（小猪）
-      - 自强12544（小猪）
-      - 自强12626（小猪）
+      - 波兰PL_6852（小猪）
+      - 🇷🇴 罗马尼亚RO_7117（小猪）
+      - 🇷🇴 罗马尼亚RO_7146（小猪）
+      - 🇷🇴 罗马尼亚RO_7198（小猪）
+      - 🇷🇴 罗马尼亚RO_7408（小猪）
+      - 🇷🇴 罗马尼亚RO_7419（小猪）
+      - 🇷🇴 罗马尼亚RO_7588（小猪）
+      - 🇷🇴 罗马尼亚RO_7637（小猪）
+      - 🇷🇴 罗马尼亚RO_7715（小猪）
+      - 🇷🇴 罗马尼亚RO_7801（小猪）
+      - 🇷🇴 罗马尼亚RO_7817（小猪）
+      - 🇺🇸 美国US_10270（小猪）
+      - 🇺🇸 美国US_11278（小猪）
+      - 🇺🇸 美国US_11352（小猪）
+      - 🇺🇸 美国US_11353（小猪）
+      - 🇺🇸 美国US_11373（小猪）
+      - 🇺🇸 美国US_11449（小猪）
+      - 🇺🇸 美国US_11676（小猪）
+      - 🇺🇸 美国US_11703（小猪）
+      - 🇺🇸 美国US_2278（小猪）
+      - 🇺🇸 美国US_78（小猪）
+      - 🇺🇸 美国US_8524（小猪）
+      - 🇺🇸 美国US_8726（小猪）
+      - 🇺🇸 美国US_8771（小猪）
+      - 🇺🇸 美国US_8955（小猪）
+      - 🇺🇸 美国US_9177（小猪）
+      - 🇺🇸 美国US_9210（小猪）
+      - 🇺🇸 美国US_9254（小猪）
+      - 🇺🇸 美国US_9490（小猪）
+      - 🇺🇸 美国US_9760（小猪）
+      - 斯洛伐克SK_8325（小猪）
+      - 🇨🇳 台湾TW_8418（小猪）
+      - 🇨🇳 台湾TW_8419（小猪）
+      - 🇨🇳 台湾TW_8446（小猪）
+      - 🇬🇧 英国GB_4395（小猪）
+      - 🇬🇧 英国GB_4398（小猪）
+      - 🇬🇧 英国GB_4528（小猪）
+      - 🇬🇧 英国GB_4561（小猪）
+      - 🇬🇧 英国GB_4563（小猪）
+      - 🇬🇧 英国GB_4669（小猪）
+      - 🇬🇧 英国GB_4697（小猪）
+      - 🇬🇧 英国GB_4925（小猪）
+      - 自强_115（小猪）
+      - 自强_265（小猪）
+      - 自强_445（小猪）
       - 自强12631（小猪）
-      - 自强12632（小猪）
-      - 自强12649（小猪）
-      - 自强12669（小猪）
-      - 自强12670（小猪）
-      - 自强12697（小猪）
-      - 自强12698（小猪）
-      - 自强12699（小猪）
-      - 自强12700（小猪）
-      - 自强12701（小猪）
-      - 自强12702（小猪）
-      - 自强12703（小猪）
-      - 自强12705（小猪）
-      - 自强12719（小猪）
-      - 自强12756（小猪）
       - 自强156（小猪）
       - 自强165（小猪）
-      - 自强171（小猪）
-      - 自强375（小猪）
+      - 自强ZZ_12287（小猪）
+      - 自强ZZ_12432（小猪）
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇯🇵 日本01（小猪）
-      - 🇯🇵 日本 02（小猪）
-      - 🇦🇺 澳大利亚1287（小猪）
-      - 🇦🇺 澳大利亚8229（小猪）
-      - 🇦🇺 澳大利亚8230（小猪）
-      - 🇦🇺 澳大利亚8233（小猪）
-      - 🇦🇺 澳大利亚8242（小猪）
-      - 🇦🇺 澳大利亚8243（小猪）
-      - 🇦🇺 澳大利亚8246（小猪）
-      - 🇦🇺 澳大利亚8278（小猪）
-      - 🇦🇺 澳大利亚8279（小猪）
-      - 🇦🇺 澳大利亚8291（小猪）
-      - 🇦🇺 澳大利亚8295（小猪）
-      - 🇺🇸 美国11644（小猪）
-      - 🇺🇸 美国5217（小猪）
-      - 🇺🇸 美国5361（小猪）
-      - 🇺🇸 美国5365（小猪）
-      - 🇺🇸 美国5369（小猪）
-      - 🇺🇸 美国5371（小猪）
-      - 🇺🇸 美国5376（小猪）
-      - 🇺🇸 美国5378（小猪）
-      - 🇺🇸 美国5441（小猪）
-      - 🇺🇸 美国6322（小猪）
-      - 🇺🇸 美国9837（小猪）
-      - 🇭🇰 香港1997（小猪）
-      - 🇭🇰 香港1998（小猪）
-      - 🇭🇰 香港2006（小猪）
-      - 🇭🇰 香港37（小猪）
-      - 🇭🇰 香港38（小猪）
-      - 🇭🇰 香港4604（小猪）
+      - 🇯🇵 日本02（小猪）
       - 🇸🇬 新加坡7896（小猪）
-      - 自强12544（小猪）
-      - 自强12626（小猪）
+      - 波兰PL_6852（小猪）
+      - 🇷🇴 罗马尼亚RO_7117（小猪）
+      - 🇷🇴 罗马尼亚RO_7146（小猪）
+      - 🇷🇴 罗马尼亚RO_7198（小猪）
+      - 🇷🇴 罗马尼亚RO_7408（小猪）
+      - 🇷🇴 罗马尼亚RO_7419（小猪）
+      - 🇷🇴 罗马尼亚RO_7588（小猪）
+      - 🇷🇴 罗马尼亚RO_7637（小猪）
+      - 🇷🇴 罗马尼亚RO_7715（小猪）
+      - 🇷🇴 罗马尼亚RO_7801（小猪）
+      - 🇷🇴 罗马尼亚RO_7817（小猪）
+      - 🇺🇸 美国US_10270（小猪）
+      - 🇺🇸 美国US_11278（小猪）
+      - 🇺🇸 美国US_11352（小猪）
+      - 🇺🇸 美国US_11353（小猪）
+      - 🇺🇸 美国US_11373（小猪）
+      - 🇺🇸 美国US_11449（小猪）
+      - 🇺🇸 美国US_11676（小猪）
+      - 🇺🇸 美国US_11703（小猪）
+      - 🇺🇸 美国US_2278（小猪）
+      - 🇺🇸 美国US_78（小猪）
+      - 🇺🇸 美国US_8524（小猪）
+      - 🇺🇸 美国US_8726（小猪）
+      - 🇺🇸 美国US_8771（小猪）
+      - 🇺🇸 美国US_8955（小猪）
+      - 🇺🇸 美国US_9177（小猪）
+      - 🇺🇸 美国US_9210（小猪）
+      - 🇺🇸 美国US_9254（小猪）
+      - 🇺🇸 美国US_9490（小猪）
+      - 🇺🇸 美国US_9760（小猪）
+      - 斯洛伐克SK_8325（小猪）
+      - 🇨🇳 台湾TW_8418（小猪）
+      - 🇨🇳 台湾TW_8419（小猪）
+      - 🇨🇳 台湾TW_8446（小猪）
+      - 🇬🇧 英国GB_4395（小猪）
+      - 🇬🇧 英国GB_4398（小猪）
+      - 🇬🇧 英国GB_4528（小猪）
+      - 🇬🇧 英国GB_4561（小猪）
+      - 🇬🇧 英国GB_4563（小猪）
+      - 🇬🇧 英国GB_4669（小猪）
+      - 🇬🇧 英国GB_4697（小猪）
+      - 🇬🇧 英国GB_4925（小猪）
+      - 自强_115（小猪）
+      - 自强_265（小猪）
+      - 自强_445（小猪）
       - 自强12631（小猪）
-      - 自强12632（小猪）
-      - 自强12649（小猪）
-      - 自强12669（小猪）
-      - 自强12670（小猪）
-      - 自强12697（小猪）
-      - 自强12698（小猪）
-      - 自强12699（小猪）
-      - 自强12700（小猪）
-      - 自强12701（小猪）
-      - 自强12702（小猪）
-      - 自强12703（小猪）
-      - 自强12705（小猪）
-      - 自强12719（小猪）
-      - 自强12756（小猪）
       - 自强156（小猪）
       - 自强165（小猪）
-      - 自强171（小猪）
-      - 自强375（小猪）
+      - 自强ZZ_12287（小猪）
+      - 自强ZZ_12432（小猪）
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇯🇵 日本01（小猪）
-      - 🇯🇵 日本 02（小猪）
-      - 🇦🇺 澳大利亚1287（小猪）
-      - 🇦🇺 澳大利亚8229（小猪）
-      - 🇦🇺 澳大利亚8230（小猪）
-      - 🇦🇺 澳大利亚8233（小猪）
-      - 🇦🇺 澳大利亚8242（小猪）
-      - 🇦🇺 澳大利亚8243（小猪）
-      - 🇦🇺 澳大利亚8246（小猪）
-      - 🇦🇺 澳大利亚8278（小猪）
-      - 🇦🇺 澳大利亚8279（小猪）
-      - 🇦🇺 澳大利亚8291（小猪）
-      - 🇦🇺 澳大利亚8295（小猪）
-      - 🇺🇸 美国11644（小猪）
-      - 🇺🇸 美国5217（小猪）
-      - 🇺🇸 美国5361（小猪）
-      - 🇺🇸 美国5365（小猪）
-      - 🇺🇸 美国5369（小猪）
-      - 🇺🇸 美国5371（小猪）
-      - 🇺🇸 美国5376（小猪）
-      - 🇺🇸 美国5378（小猪）
-      - 🇺🇸 美国5441（小猪）
-      - 🇺🇸 美国6322（小猪）
-      - 🇺🇸 美国9837（小猪）
-      - 🇭🇰 香港1997（小猪）
-      - 🇭🇰 香港1998（小猪）
-      - 🇭🇰 香港2006（小猪）
-      - 🇭🇰 香港37（小猪）
-      - 🇭🇰 香港38（小猪）
-      - 🇭🇰 香港4604（小猪）
+      - 🇯🇵 日本02（小猪）
       - 🇸🇬 新加坡7896（小猪）
-      - 自强12544（小猪）
-      - 自强12626（小猪）
+      - 波兰PL_6852（小猪）
+      - 🇷🇴 罗马尼亚RO_7117（小猪）
+      - 🇷🇴 罗马尼亚RO_7146（小猪）
+      - 🇷🇴 罗马尼亚RO_7198（小猪）
+      - 🇷🇴 罗马尼亚RO_7408（小猪）
+      - 🇷🇴 罗马尼亚RO_7419（小猪）
+      - 🇷🇴 罗马尼亚RO_7588（小猪）
+      - 🇷🇴 罗马尼亚RO_7637（小猪）
+      - 🇷🇴 罗马尼亚RO_7715（小猪）
+      - 🇷🇴 罗马尼亚RO_7801（小猪）
+      - 🇷🇴 罗马尼亚RO_7817（小猪）
+      - 🇺🇸 美国US_10270（小猪）
+      - 🇺🇸 美国US_11278（小猪）
+      - 🇺🇸 美国US_11352（小猪）
+      - 🇺🇸 美国US_11353（小猪）
+      - 🇺🇸 美国US_11373（小猪）
+      - 🇺🇸 美国US_11449（小猪）
+      - 🇺🇸 美国US_11676（小猪）
+      - 🇺🇸 美国US_11703（小猪）
+      - 🇺🇸 美国US_2278（小猪）
+      - 🇺🇸 美国US_78（小猪）
+      - 🇺🇸 美国US_8524（小猪）
+      - 🇺🇸 美国US_8726（小猪）
+      - 🇺🇸 美国US_8771（小猪）
+      - 🇺🇸 美国US_8955（小猪）
+      - 🇺🇸 美国US_9177（小猪）
+      - 🇺🇸 美国US_9210（小猪）
+      - 🇺🇸 美国US_9254（小猪）
+      - 🇺🇸 美国US_9490（小猪）
+      - 🇺🇸 美国US_9760（小猪）
+      - 斯洛伐克SK_8325（小猪）
+      - 🇨🇳 台湾TW_8418（小猪）
+      - 🇨🇳 台湾TW_8419（小猪）
+      - 🇨🇳 台湾TW_8446（小猪）
+      - 🇬🇧 英国GB_4395（小猪）
+      - 🇬🇧 英国GB_4398（小猪）
+      - 🇬🇧 英国GB_4528（小猪）
+      - 🇬🇧 英国GB_4561（小猪）
+      - 🇬🇧 英国GB_4563（小猪）
+      - 🇬🇧 英国GB_4669（小猪）
+      - 🇬🇧 英国GB_4697（小猪）
+      - 🇬🇧 英国GB_4925（小猪）
+      - 自强_115（小猪）
+      - 自强_265（小猪）
+      - 自强_445（小猪）
       - 自强12631（小猪）
-      - 自强12632（小猪）
-      - 自强12649（小猪）
-      - 自强12669（小猪）
-      - 自强12670（小猪）
-      - 自强12697（小猪）
-      - 自强12698（小猪）
-      - 自强12699（小猪）
-      - 自强12700（小猪）
-      - 自强12701（小猪）
-      - 自强12702（小猪）
-      - 自强12703（小猪）
-      - 自强12705（小猪）
-      - 自强12719（小猪）
-      - 自强12756（小猪）
       - 自强156（小猪）
       - 自强165（小猪）
-      - 自强171（小猪）
-      - 自强375（小猪）
+      - 自强ZZ_12287（小猪）
+      - 自强ZZ_12432（小猪）
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -409,57 +416,58 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇯🇵 日本01（小猪）
-      - 🇯🇵 日本 02（小猪）
-      - 🇦🇺 澳大利亚1287（小猪）
-      - 🇦🇺 澳大利亚8229（小猪）
-      - 🇦🇺 澳大利亚8230（小猪）
-      - 🇦🇺 澳大利亚8233（小猪）
-      - 🇦🇺 澳大利亚8242（小猪）
-      - 🇦🇺 澳大利亚8243（小猪）
-      - 🇦🇺 澳大利亚8246（小猪）
-      - 🇦🇺 澳大利亚8278（小猪）
-      - 🇦🇺 澳大利亚8279（小猪）
-      - 🇦🇺 澳大利亚8291（小猪）
-      - 🇦🇺 澳大利亚8295（小猪）
-      - 🇺🇸 美国11644（小猪）
-      - 🇺🇸 美国5217（小猪）
-      - 🇺🇸 美国5361（小猪）
-      - 🇺🇸 美国5365（小猪）
-      - 🇺🇸 美国5369（小猪）
-      - 🇺🇸 美国5371（小猪）
-      - 🇺🇸 美国5376（小猪）
-      - 🇺🇸 美国5378（小猪）
-      - 🇺🇸 美国5441（小猪）
-      - 🇺🇸 美国6322（小猪）
-      - 🇺🇸 美国9837（小猪）
-      - 🇭🇰 香港1997（小猪）
-      - 🇭🇰 香港1998（小猪）
-      - 🇭🇰 香港2006（小猪）
-      - 🇭🇰 香港37（小猪）
-      - 🇭🇰 香港38（小猪）
-      - 🇭🇰 香港4604（小猪）
+      - 🇯🇵 日本02（小猪）
       - 🇸🇬 新加坡7896（小猪）
-      - 自强12544（小猪）
-      - 自强12626（小猪）
+      - 波兰PL_6852（小猪）
+      - 🇷🇴 罗马尼亚RO_7117（小猪）
+      - 🇷🇴 罗马尼亚RO_7146（小猪）
+      - 🇷🇴 罗马尼亚RO_7198（小猪）
+      - 🇷🇴 罗马尼亚RO_7408（小猪）
+      - 🇷🇴 罗马尼亚RO_7419（小猪）
+      - 🇷🇴 罗马尼亚RO_7588（小猪）
+      - 🇷🇴 罗马尼亚RO_7637（小猪）
+      - 🇷🇴 罗马尼亚RO_7715（小猪）
+      - 🇷🇴 罗马尼亚RO_7801（小猪）
+      - 🇷🇴 罗马尼亚RO_7817（小猪）
+      - 🇺🇸 美国US_10270（小猪）
+      - 🇺🇸 美国US_11278（小猪）
+      - 🇺🇸 美国US_11352（小猪）
+      - 🇺🇸 美国US_11353（小猪）
+      - 🇺🇸 美国US_11373（小猪）
+      - 🇺🇸 美国US_11449（小猪）
+      - 🇺🇸 美国US_11676（小猪）
+      - 🇺🇸 美国US_11703（小猪）
+      - 🇺🇸 美国US_2278（小猪）
+      - 🇺🇸 美国US_78（小猪）
+      - 🇺🇸 美国US_8524（小猪）
+      - 🇺🇸 美国US_8726（小猪）
+      - 🇺🇸 美国US_8771（小猪）
+      - 🇺🇸 美国US_8955（小猪）
+      - 🇺🇸 美国US_9177（小猪）
+      - 🇺🇸 美国US_9210（小猪）
+      - 🇺🇸 美国US_9254（小猪）
+      - 🇺🇸 美国US_9490（小猪）
+      - 🇺🇸 美国US_9760（小猪）
+      - 斯洛伐克SK_8325（小猪）
+      - 🇨🇳 台湾TW_8418（小猪）
+      - 🇨🇳 台湾TW_8419（小猪）
+      - 🇨🇳 台湾TW_8446（小猪）
+      - 🇬🇧 英国GB_4395（小猪）
+      - 🇬🇧 英国GB_4398（小猪）
+      - 🇬🇧 英国GB_4528（小猪）
+      - 🇬🇧 英国GB_4561（小猪）
+      - 🇬🇧 英国GB_4563（小猪）
+      - 🇬🇧 英国GB_4669（小猪）
+      - 🇬🇧 英国GB_4697（小猪）
+      - 🇬🇧 英国GB_4925（小猪）
+      - 自强_115（小猪）
+      - 自强_265（小猪）
+      - 自强_445（小猪）
       - 自强12631（小猪）
-      - 自强12632（小猪）
-      - 自强12649（小猪）
-      - 自强12669（小猪）
-      - 自强12670（小猪）
-      - 自强12697（小猪）
-      - 自强12698（小猪）
-      - 自强12699（小猪）
-      - 自强12700（小猪）
-      - 自强12701（小猪）
-      - 自强12702（小猪）
-      - 自强12703（小猪）
-      - 自强12705（小猪）
-      - 自强12719（小猪）
-      - 自强12756（小猪）
       - 自强156（小猪）
       - 自强165（小猪）
-      - 自强171（小猪）
-      - 自强375（小猪）
+      - 自强ZZ_12287（小猪）
+      - 自强ZZ_12432（小猪）
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -483,57 +491,58 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇯🇵 日本01（小猪）
-      - 🇯🇵 日本 02（小猪）
-      - 🇦🇺 澳大利亚1287（小猪）
-      - 🇦🇺 澳大利亚8229（小猪）
-      - 🇦🇺 澳大利亚8230（小猪）
-      - 🇦🇺 澳大利亚8233（小猪）
-      - 🇦🇺 澳大利亚8242（小猪）
-      - 🇦🇺 澳大利亚8243（小猪）
-      - 🇦🇺 澳大利亚8246（小猪）
-      - 🇦🇺 澳大利亚8278（小猪）
-      - 🇦🇺 澳大利亚8279（小猪）
-      - 🇦🇺 澳大利亚8291（小猪）
-      - 🇦🇺 澳大利亚8295（小猪）
-      - 🇺🇸 美国11644（小猪）
-      - 🇺🇸 美国5217（小猪）
-      - 🇺🇸 美国5361（小猪）
-      - 🇺🇸 美国5365（小猪）
-      - 🇺🇸 美国5369（小猪）
-      - 🇺🇸 美国5371（小猪）
-      - 🇺🇸 美国5376（小猪）
-      - 🇺🇸 美国5378（小猪）
-      - 🇺🇸 美国5441（小猪）
-      - 🇺🇸 美国6322（小猪）
-      - 🇺🇸 美国9837（小猪）
-      - 🇭🇰 香港1997（小猪）
-      - 🇭🇰 香港1998（小猪）
-      - 🇭🇰 香港2006（小猪）
-      - 🇭🇰 香港37（小猪）
-      - 🇭🇰 香港38（小猪）
-      - 🇭🇰 香港4604（小猪）
+      - 🇯🇵 日本02（小猪）
       - 🇸🇬 新加坡7896（小猪）
-      - 自强12544（小猪）
-      - 自强12626（小猪）
+      - 波兰PL_6852（小猪）
+      - 🇷🇴 罗马尼亚RO_7117（小猪）
+      - 🇷🇴 罗马尼亚RO_7146（小猪）
+      - 🇷🇴 罗马尼亚RO_7198（小猪）
+      - 🇷🇴 罗马尼亚RO_7408（小猪）
+      - 🇷🇴 罗马尼亚RO_7419（小猪）
+      - 🇷🇴 罗马尼亚RO_7588（小猪）
+      - 🇷🇴 罗马尼亚RO_7637（小猪）
+      - 🇷🇴 罗马尼亚RO_7715（小猪）
+      - 🇷🇴 罗马尼亚RO_7801（小猪）
+      - 🇷🇴 罗马尼亚RO_7817（小猪）
+      - 🇺🇸 美国US_10270（小猪）
+      - 🇺🇸 美国US_11278（小猪）
+      - 🇺🇸 美国US_11352（小猪）
+      - 🇺🇸 美国US_11353（小猪）
+      - 🇺🇸 美国US_11373（小猪）
+      - 🇺🇸 美国US_11449（小猪）
+      - 🇺🇸 美国US_11676（小猪）
+      - 🇺🇸 美国US_11703（小猪）
+      - 🇺🇸 美国US_2278（小猪）
+      - 🇺🇸 美国US_78（小猪）
+      - 🇺🇸 美国US_8524（小猪）
+      - 🇺🇸 美国US_8726（小猪）
+      - 🇺🇸 美国US_8771（小猪）
+      - 🇺🇸 美国US_8955（小猪）
+      - 🇺🇸 美国US_9177（小猪）
+      - 🇺🇸 美国US_9210（小猪）
+      - 🇺🇸 美国US_9254（小猪）
+      - 🇺🇸 美国US_9490（小猪）
+      - 🇺🇸 美国US_9760（小猪）
+      - 斯洛伐克SK_8325（小猪）
+      - 🇨🇳 台湾TW_8418（小猪）
+      - 🇨🇳 台湾TW_8419（小猪）
+      - 🇨🇳 台湾TW_8446（小猪）
+      - 🇬🇧 英国GB_4395（小猪）
+      - 🇬🇧 英国GB_4398（小猪）
+      - 🇬🇧 英国GB_4528（小猪）
+      - 🇬🇧 英国GB_4561（小猪）
+      - 🇬🇧 英国GB_4563（小猪）
+      - 🇬🇧 英国GB_4669（小猪）
+      - 🇬🇧 英国GB_4697（小猪）
+      - 🇬🇧 英国GB_4925（小猪）
+      - 自强_115（小猪）
+      - 自强_265（小猪）
+      - 自强_445（小猪）
       - 自强12631（小猪）
-      - 自强12632（小猪）
-      - 自强12649（小猪）
-      - 自强12669（小猪）
-      - 自强12670（小猪）
-      - 自强12697（小猪）
-      - 自强12698（小猪）
-      - 自强12699（小猪）
-      - 自强12700（小猪）
-      - 自强12701（小猪）
-      - 自强12702（小猪）
-      - 自强12703（小猪）
-      - 自强12705（小猪）
-      - 自强12719（小猪）
-      - 自强12756（小猪）
       - 自强156（小猪）
       - 自强165（小猪）
-      - 自强171（小猪）
-      - 自强375（小猪）
+      - 自强ZZ_12287（小猪）
+      - 自强ZZ_12432（小猪）
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -3052,10 +3061,7 @@ rules:
  - DOMAIN-SUFFIX,smartmailcloud.com,🚀 节点选择
  - DOMAIN-SUFFIX,fanatical.com,🚀 节点选择
  - DOMAIN-SUFFIX,humblebundle.com,🚀 节点选择
- - DOMAIN-SUFFIX,steam-chat.com,🚀 节点选择
  - DOMAIN-SUFFIX,steamcommunity.com,🚀 节点选择
- - DOMAIN-SUFFIX,steampowered.com,🚀 节点选择
- - DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
  - DOMAIN-SUFFIX,tap.io,🚀 节点选择
  - DOMAIN-SUFFIX,taptap.tw,🚀 节点选择
  - DOMAIN-SUFFIX,twitch.tv,🚀 节点选择
