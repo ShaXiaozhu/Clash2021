@@ -27,8 +27,6 @@ proxies:
   - {name: 🇮🇹 意大利IT_5822（小猪）, server: 217.138.219.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇬🇧 英国GB_4007（小猪）, server: 185.44.76.55, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇬🇧 英国GB_4780（小猪）, server: 195.181.171.233, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇳 中国CN_2076（小猪）, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: 🇨🇳 中国CN_2077（小猪）, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -57,8 +55,6 @@ proxy-groups:
       - 🇮🇹 意大利IT_5822（小猪）
       - 🇬🇧 英国GB_4007（小猪）
       - 🇬🇧 英国GB_4780（小猪）
-      - 🇨🇳 中国CN_2076（小猪）
-      - 🇨🇳 中国CN_2077（小猪）
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -87,8 +83,6 @@ proxy-groups:
       - 🇮🇹 意大利IT_5822（小猪）
       - 🇬🇧 英国GB_4007（小猪）
       - 🇬🇧 英国GB_4780（小猪）
-      - 🇨🇳 中国CN_2076（小猪）
-      - 🇨🇳 中国CN_2077（小猪）
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -117,8 +111,6 @@ proxy-groups:
       - 🇮🇹 意大利IT_5822（小猪）
       - 🇬🇧 英国GB_4007（小猪）
       - 🇬🇧 英国GB_4780（小猪）
-      - 🇨🇳 中国CN_2076（小猪）
-      - 🇨🇳 中国CN_2077（小猪）
   - name: 📲 电报信息
     type: select
     proxies:
@@ -146,8 +138,6 @@ proxy-groups:
       - 🇮🇹 意大利IT_5822（小猪）
       - 🇬🇧 英国GB_4007（小猪）
       - 🇬🇧 英国GB_4780（小猪）
-      - 🇨🇳 中国CN_2076（小猪）
-      - 🇨🇳 中国CN_2077（小猪）
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -175,8 +165,6 @@ proxy-groups:
       - 🇮🇹 意大利IT_5822（小猪）
       - 🇬🇧 英国GB_4007（小猪）
       - 🇬🇧 英国GB_4780（小猪）
-      - 🇨🇳 中国CN_2076（小猪）
-      - 🇨🇳 中国CN_2077（小猪）
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -204,8 +192,6 @@ proxy-groups:
       - 🇮🇹 意大利IT_5822（小猪）
       - 🇬🇧 英国GB_4007（小猪）
       - 🇬🇧 英国GB_4780（小猪）
-      - 🇨🇳 中国CN_2076（小猪）
-      - 🇨🇳 中国CN_2077（小猪）
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -234,8 +220,6 @@ proxy-groups:
       - 🇮🇹 意大利IT_5822（小猪）
       - 🇬🇧 英国GB_4007（小猪）
       - 🇬🇧 英国GB_4780（小猪）
-      - 🇨🇳 中国CN_2076（小猪）
-      - 🇨🇳 中国CN_2077（小猪）
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -280,8 +264,6 @@ proxy-groups:
       - 🇮🇹 意大利IT_5822（小猪）
       - 🇬🇧 英国GB_4007（小猪）
       - 🇬🇧 英国GB_4780（小猪）
-      - 🇨🇳 中国CN_2076（小猪）
-      - 🇨🇳 中国CN_2077（小猪）
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
