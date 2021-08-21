@@ -8,10 +8,12 @@ proxies:
   - {name: 🇦🇹 奥地利AT_1341（小猪）, server: 5.253.207.83, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
   - {name: 波兰PL_6830（小猪）, server: 5.253.206.69, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 波兰PL_7123（小猪）, server: 5.187.49.189, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇫🇷 法国(Youtube:不良林), server: 138.199.16.130, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
   - {name: 🇷🇴 罗马尼亚RO_7969（小猪）, server: 194.37.98.211, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
   - {name: 🇷🇴 罗马尼亚RO_7983（小猪）, server: 193.29.106.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇷🇴 罗马尼亚RO_8342（小猪）, server: 79.110.54.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 克罗地亚(Youtube:不良林), server: 176.222.34.113, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇺🇸 US_美国(Youtube:不良林), server: 199.10.64.99, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
   - {name: 🇺🇸 美国US_10741（小猪）, server: 84.17.41.77, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
   - {name: 🇺🇸 美国US_10755（小猪）, server: 148.72.174.41, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 🇺🇸 美国US_11122（小猪）, server: 199.10.64.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
@@ -28,8 +30,6 @@ proxies:
   - {name: 🇮🇹 意大利IT_5822（小猪）, server: 217.138.219.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇬🇧 英国GB_4007（小猪）, server: 185.44.76.55, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇬🇧 英国GB_4780（小猪）, server: 195.181.171.233, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇳 中国CN_2076（小猪）, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: 🇨🇳 中国CN_2077（小猪）, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -39,10 +39,12 @@ proxy-groups:
       - 🇦🇹 奥地利AT_1341（小猪）
       - 波兰PL_6830（小猪）
       - 波兰PL_7123（小猪）
+      - 🇫🇷 法国(Youtube:不良林)
       - 🇷🇴 罗马尼亚RO_7969（小猪）
       - 🇷🇴 罗马尼亚RO_7983（小猪）
       - 🇷🇴 罗马尼亚RO_8342（小猪）
       - 克罗地亚(Youtube:不良林)
+      - 🇺🇸 US_美国(Youtube:不良林)
       - 🇺🇸 美国US_10741（小猪）
       - 🇺🇸 美国US_10755（小猪）
       - 🇺🇸 美国US_11122（小猪）
@@ -59,8 +61,6 @@ proxy-groups:
       - 🇮🇹 意大利IT_5822（小猪）
       - 🇬🇧 英国GB_4007（小猪）
       - 🇬🇧 英国GB_4780（小猪）
-      - 🇨🇳 中国CN_2076（小猪）
-      - 🇨🇳 中国CN_2077（小猪）
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -70,10 +70,12 @@ proxy-groups:
       - 🇦🇹 奥地利AT_1341（小猪）
       - 波兰PL_6830（小猪）
       - 波兰PL_7123（小猪）
+      - 🇫🇷 法国(Youtube:不良林)
       - 🇷🇴 罗马尼亚RO_7969（小猪）
       - 🇷🇴 罗马尼亚RO_7983（小猪）
       - 🇷🇴 罗马尼亚RO_8342（小猪）
       - 克罗地亚(Youtube:不良林)
+      - 🇺🇸 US_美国(Youtube:不良林)
       - 🇺🇸 美国US_10741（小猪）
       - 🇺🇸 美国US_10755（小猪）
       - 🇺🇸 美国US_11122（小猪）
@@ -90,8 +92,6 @@ proxy-groups:
       - 🇮🇹 意大利IT_5822（小猪）
       - 🇬🇧 英国GB_4007（小猪）
       - 🇬🇧 英国GB_4780（小猪）
-      - 🇨🇳 中国CN_2076（小猪）
-      - 🇨🇳 中国CN_2077（小猪）
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -101,10 +101,12 @@ proxy-groups:
       - 🇦🇹 奥地利AT_1341（小猪）
       - 波兰PL_6830（小猪）
       - 波兰PL_7123（小猪）
+      - 🇫🇷 法国(Youtube:不良林)
       - 🇷🇴 罗马尼亚RO_7969（小猪）
       - 🇷🇴 罗马尼亚RO_7983（小猪）
       - 🇷🇴 罗马尼亚RO_8342（小猪）
       - 克罗地亚(Youtube:不良林)
+      - 🇺🇸 US_美国(Youtube:不良林)
       - 🇺🇸 美国US_10741（小猪）
       - 🇺🇸 美国US_10755（小猪）
       - 🇺🇸 美国US_11122（小猪）
@@ -121,8 +123,6 @@ proxy-groups:
       - 🇮🇹 意大利IT_5822（小猪）
       - 🇬🇧 英国GB_4007（小猪）
       - 🇬🇧 英国GB_4780（小猪）
-      - 🇨🇳 中国CN_2076（小猪）
-      - 🇨🇳 中国CN_2077（小猪）
   - name: 📲 电报信息
     type: select
     proxies:
@@ -131,10 +131,12 @@ proxy-groups:
       - 🇦🇹 奥地利AT_1341（小猪）
       - 波兰PL_6830（小猪）
       - 波兰PL_7123（小猪）
+      - 🇫🇷 法国(Youtube:不良林)
       - 🇷🇴 罗马尼亚RO_7969（小猪）
       - 🇷🇴 罗马尼亚RO_7983（小猪）
       - 🇷🇴 罗马尼亚RO_8342（小猪）
       - 克罗地亚(Youtube:不良林)
+      - 🇺🇸 US_美国(Youtube:不良林)
       - 🇺🇸 美国US_10741（小猪）
       - 🇺🇸 美国US_10755（小猪）
       - 🇺🇸 美国US_11122（小猪）
@@ -151,8 +153,6 @@ proxy-groups:
       - 🇮🇹 意大利IT_5822（小猪）
       - 🇬🇧 英国GB_4007（小猪）
       - 🇬🇧 英国GB_4780（小猪）
-      - 🇨🇳 中国CN_2076（小猪）
-      - 🇨🇳 中国CN_2077（小猪）
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -161,10 +161,12 @@ proxy-groups:
       - 🇦🇹 奥地利AT_1341（小猪）
       - 波兰PL_6830（小猪）
       - 波兰PL_7123（小猪）
+      - 🇫🇷 法国(Youtube:不良林)
       - 🇷🇴 罗马尼亚RO_7969（小猪）
       - 🇷🇴 罗马尼亚RO_7983（小猪）
       - 🇷🇴 罗马尼亚RO_8342（小猪）
       - 克罗地亚(Youtube:不良林)
+      - 🇺🇸 US_美国(Youtube:不良林)
       - 🇺🇸 美国US_10741（小猪）
       - 🇺🇸 美国US_10755（小猪）
       - 🇺🇸 美国US_11122（小猪）
@@ -181,8 +183,6 @@ proxy-groups:
       - 🇮🇹 意大利IT_5822（小猪）
       - 🇬🇧 英国GB_4007（小猪）
       - 🇬🇧 英国GB_4780（小猪）
-      - 🇨🇳 中国CN_2076（小猪）
-      - 🇨🇳 中国CN_2077（小猪）
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -191,10 +191,12 @@ proxy-groups:
       - 🇦🇹 奥地利AT_1341（小猪）
       - 波兰PL_6830（小猪）
       - 波兰PL_7123（小猪）
+      - 🇫🇷 法国(Youtube:不良林)
       - 🇷🇴 罗马尼亚RO_7969（小猪）
       - 🇷🇴 罗马尼亚RO_7983（小猪）
       - 🇷🇴 罗马尼亚RO_8342（小猪）
       - 克罗地亚(Youtube:不良林)
+      - 🇺🇸 US_美国(Youtube:不良林)
       - 🇺🇸 美国US_10741（小猪）
       - 🇺🇸 美国US_10755（小猪）
       - 🇺🇸 美国US_11122（小猪）
@@ -211,8 +213,6 @@ proxy-groups:
       - 🇮🇹 意大利IT_5822（小猪）
       - 🇬🇧 英国GB_4007（小猪）
       - 🇬🇧 英国GB_4780（小猪）
-      - 🇨🇳 中国CN_2076（小猪）
-      - 🇨🇳 中国CN_2077（小猪）
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -222,10 +222,12 @@ proxy-groups:
       - 🇦🇹 奥地利AT_1341（小猪）
       - 波兰PL_6830（小猪）
       - 波兰PL_7123（小猪）
+      - 🇫🇷 法国(Youtube:不良林)
       - 🇷🇴 罗马尼亚RO_7969（小猪）
       - 🇷🇴 罗马尼亚RO_7983（小猪）
       - 🇷🇴 罗马尼亚RO_8342（小猪）
       - 克罗地亚(Youtube:不良林)
+      - 🇺🇸 US_美国(Youtube:不良林)
       - 🇺🇸 美国US_10741（小猪）
       - 🇺🇸 美国US_10755（小猪）
       - 🇺🇸 美国US_11122（小猪）
@@ -242,8 +244,6 @@ proxy-groups:
       - 🇮🇹 意大利IT_5822（小猪）
       - 🇬🇧 英国GB_4007（小猪）
       - 🇬🇧 英国GB_4780（小猪）
-      - 🇨🇳 中国CN_2076（小猪）
-      - 🇨🇳 中国CN_2077（小猪）
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -269,10 +269,12 @@ proxy-groups:
       - 🇦🇹 奥地利AT_1341（小猪）
       - 波兰PL_6830（小猪）
       - 波兰PL_7123（小猪）
+      - 🇫🇷 法国(Youtube:不良林)
       - 🇷🇴 罗马尼亚RO_7969（小猪）
       - 🇷🇴 罗马尼亚RO_7983（小猪）
       - 🇷🇴 罗马尼亚RO_8342（小猪）
       - 克罗地亚(Youtube:不良林)
+      - 🇺🇸 US_美国(Youtube:不良林)
       - 🇺🇸 美国US_10741（小猪）
       - 🇺🇸 美国US_10755（小猪）
       - 🇺🇸 美国US_11122（小猪）
@@ -289,8 +291,6 @@ proxy-groups:
       - 🇮🇹 意大利IT_5822（小猪）
       - 🇬🇧 英国GB_4007（小猪）
       - 🇬🇧 英国GB_4780（小猪）
-      - 🇨🇳 中国CN_2076（小猪）
-      - 🇨🇳 中国CN_2077（小猪）
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
