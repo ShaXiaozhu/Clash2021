@@ -5,22 +5,25 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇮🇪 爱尔兰_1(Youtube:不良林), server: 5.157.13.53, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇦🇹 奥地利AT_1(Youtube:不良林), server: 37.120.212.131, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇦🇹 奥地利AT_1341（小猪）, server: 5.253.207.83, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇦🇹 奥地利AT_2(Youtube:不良林), server: 37.120.212.131, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 比利时_1(Youtube:不良林), server: 5.253.205.229, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇦🇷 阿根廷(Youtube:不良林), server: 91.206.168.11, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 波兰_1(Youtube:不良林), server: 178.255.45.187, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 波兰_2(Youtube:不良林), server: 178.255.45.187, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 波兰_3(Youtube:不良林), server: 178.255.45.187, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 波兰_4(Youtube:不良林), server: 178.255.45.187, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
   - {name: 波兰PL_7123（小猪）, server: 5.187.49.189, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇪 德国_1(Youtube:不良林), server: 138.199.19.185, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇩🇪 德国_2(Youtube:不良林), server: 185.102.219.49, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇩🇪 德国_3(Youtube:不良林), server: 193.29.106.29, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇩🇪 德国_4(Youtube:不良林), server: 82.102.16.99, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇫🇷 法国_1(Youtube:不良林), server: 138.199.16.130, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 美国_1(Youtube:不良林), server: 154.16.168.186, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国_2(Youtube:不良林), server: 104.200.131.167, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 斯洛伐克(Youtube:不良林), server: 37.120.221.5, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 以色列(Youtube:不良林), server: 87.239.255.119, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇮🇹 意大利(Youtube:不良林), server: 82.102.26.54, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇩🇪 德国_1(Youtube:不良林), server: 193.29.106.117, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇩🇪 德国_2(Youtube:不良林), server: 193.29.106.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇩🇪 德国_3(Youtube:不良林), server: 193.29.106.117, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇩🇪 德国_4(Youtube:不良林), server: 193.29.106.29, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇫🇷 法国_1(Youtube:不良林), server: 217.138.207.253, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇫🇷 法国_2(Youtube:不良林), server: 217.138.207.253, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸 美国_1(Youtube:不良林), server: 104.200.131.167, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 美国_2(Youtube:不良林), server: 199.58.187.67, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 美国_3(Youtube:不良林), server: 104.200.131.167, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 🇺🇸 美国_4(Youtube:不良林), server: 104.200.131.167, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 斯洛伐克_1(Youtube:不良林), server: 37.120.221.5, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇮🇹 意大利_1(Youtube:不良林), server: 212.102.54.181, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇮🇹 意大利_2(Youtube:不良林), server: 82.102.26.54, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
   - {name: 🇬🇧 英国_1(Youtube:不良林), server: 194.37.96.213, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
   - {name: 🇬🇧 英国_2(Youtube:不良林), server: 89.238.130.227, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
 proxy-groups:
@@ -29,22 +32,25 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇮🇪 爱尔兰_1(Youtube:不良林)
-      - 🇦🇹 奥地利AT_1(Youtube:不良林)
-      - 🇦🇹 奥地利AT_1341（小猪）
-      - 🇦🇹 奥地利AT_2(Youtube:不良林)
-      - 比利时_1(Youtube:不良林)
+      - 🇦🇷 阿根廷(Youtube:不良林)
+      - 波兰_1(Youtube:不良林)
+      - 波兰_2(Youtube:不良林)
+      - 波兰_3(Youtube:不良林)
+      - 波兰_4(Youtube:不良林)
       - 波兰PL_7123（小猪）
       - 🇩🇪 德国_1(Youtube:不良林)
       - 🇩🇪 德国_2(Youtube:不良林)
       - 🇩🇪 德国_3(Youtube:不良林)
       - 🇩🇪 德国_4(Youtube:不良林)
       - 🇫🇷 法国_1(Youtube:不良林)
+      - 🇫🇷 法国_2(Youtube:不良林)
       - 🇺🇸 美国_1(Youtube:不良林)
       - 🇺🇸 美国_2(Youtube:不良林)
-      - 斯洛伐克(Youtube:不良林)
-      - 以色列(Youtube:不良林)
-      - 🇮🇹 意大利(Youtube:不良林)
+      - 🇺🇸 美国_3(Youtube:不良林)
+      - 🇺🇸 美国_4(Youtube:不良林)
+      - 斯洛伐克_1(Youtube:不良林)
+      - 🇮🇹 意大利_1(Youtube:不良林)
+      - 🇮🇹 意大利_2(Youtube:不良林)
       - 🇬🇧 英国_1(Youtube:不良林)
       - 🇬🇧 英国_2(Youtube:不良林)
   - name: ♻️ 自动选择
@@ -53,22 +59,25 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇮🇪 爱尔兰_1(Youtube:不良林)
-      - 🇦🇹 奥地利AT_1(Youtube:不良林)
-      - 🇦🇹 奥地利AT_1341（小猪）
-      - 🇦🇹 奥地利AT_2(Youtube:不良林)
-      - 比利时_1(Youtube:不良林)
+      - 🇦🇷 阿根廷(Youtube:不良林)
+      - 波兰_1(Youtube:不良林)
+      - 波兰_2(Youtube:不良林)
+      - 波兰_3(Youtube:不良林)
+      - 波兰_4(Youtube:不良林)
       - 波兰PL_7123（小猪）
       - 🇩🇪 德国_1(Youtube:不良林)
       - 🇩🇪 德国_2(Youtube:不良林)
       - 🇩🇪 德国_3(Youtube:不良林)
       - 🇩🇪 德国_4(Youtube:不良林)
       - 🇫🇷 法国_1(Youtube:不良林)
+      - 🇫🇷 法国_2(Youtube:不良林)
       - 🇺🇸 美国_1(Youtube:不良林)
       - 🇺🇸 美国_2(Youtube:不良林)
-      - 斯洛伐克(Youtube:不良林)
-      - 以色列(Youtube:不良林)
-      - 🇮🇹 意大利(Youtube:不良林)
+      - 🇺🇸 美国_3(Youtube:不良林)
+      - 🇺🇸 美国_4(Youtube:不良林)
+      - 斯洛伐克_1(Youtube:不良林)
+      - 🇮🇹 意大利_1(Youtube:不良林)
+      - 🇮🇹 意大利_2(Youtube:不良林)
       - 🇬🇧 英国_1(Youtube:不良林)
       - 🇬🇧 英国_2(Youtube:不良林)
   - name: 🌍 国外媒体
@@ -77,22 +86,25 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇮🇪 爱尔兰_1(Youtube:不良林)
-      - 🇦🇹 奥地利AT_1(Youtube:不良林)
-      - 🇦🇹 奥地利AT_1341（小猪）
-      - 🇦🇹 奥地利AT_2(Youtube:不良林)
-      - 比利时_1(Youtube:不良林)
+      - 🇦🇷 阿根廷(Youtube:不良林)
+      - 波兰_1(Youtube:不良林)
+      - 波兰_2(Youtube:不良林)
+      - 波兰_3(Youtube:不良林)
+      - 波兰_4(Youtube:不良林)
       - 波兰PL_7123（小猪）
       - 🇩🇪 德国_1(Youtube:不良林)
       - 🇩🇪 德国_2(Youtube:不良林)
       - 🇩🇪 德国_3(Youtube:不良林)
       - 🇩🇪 德国_4(Youtube:不良林)
       - 🇫🇷 法国_1(Youtube:不良林)
+      - 🇫🇷 法国_2(Youtube:不良林)
       - 🇺🇸 美国_1(Youtube:不良林)
       - 🇺🇸 美国_2(Youtube:不良林)
-      - 斯洛伐克(Youtube:不良林)
-      - 以色列(Youtube:不良林)
-      - 🇮🇹 意大利(Youtube:不良林)
+      - 🇺🇸 美国_3(Youtube:不良林)
+      - 🇺🇸 美国_4(Youtube:不良林)
+      - 斯洛伐克_1(Youtube:不良林)
+      - 🇮🇹 意大利_1(Youtube:不良林)
+      - 🇮🇹 意大利_2(Youtube:不良林)
       - 🇬🇧 英国_1(Youtube:不良林)
       - 🇬🇧 英国_2(Youtube:不良林)
   - name: 📲 电报信息
@@ -100,22 +112,25 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇮🇪 爱尔兰_1(Youtube:不良林)
-      - 🇦🇹 奥地利AT_1(Youtube:不良林)
-      - 🇦🇹 奥地利AT_1341（小猪）
-      - 🇦🇹 奥地利AT_2(Youtube:不良林)
-      - 比利时_1(Youtube:不良林)
+      - 🇦🇷 阿根廷(Youtube:不良林)
+      - 波兰_1(Youtube:不良林)
+      - 波兰_2(Youtube:不良林)
+      - 波兰_3(Youtube:不良林)
+      - 波兰_4(Youtube:不良林)
       - 波兰PL_7123（小猪）
       - 🇩🇪 德国_1(Youtube:不良林)
       - 🇩🇪 德国_2(Youtube:不良林)
       - 🇩🇪 德国_3(Youtube:不良林)
       - 🇩🇪 德国_4(Youtube:不良林)
       - 🇫🇷 法国_1(Youtube:不良林)
+      - 🇫🇷 法国_2(Youtube:不良林)
       - 🇺🇸 美国_1(Youtube:不良林)
       - 🇺🇸 美国_2(Youtube:不良林)
-      - 斯洛伐克(Youtube:不良林)
-      - 以色列(Youtube:不良林)
-      - 🇮🇹 意大利(Youtube:不良林)
+      - 🇺🇸 美国_3(Youtube:不良林)
+      - 🇺🇸 美国_4(Youtube:不良林)
+      - 斯洛伐克_1(Youtube:不良林)
+      - 🇮🇹 意大利_1(Youtube:不良林)
+      - 🇮🇹 意大利_2(Youtube:不良林)
       - 🇬🇧 英国_1(Youtube:不良林)
       - 🇬🇧 英国_2(Youtube:不良林)
   - name: Ⓜ️ 微软服务
@@ -123,22 +138,25 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇮🇪 爱尔兰_1(Youtube:不良林)
-      - 🇦🇹 奥地利AT_1(Youtube:不良林)
-      - 🇦🇹 奥地利AT_1341（小猪）
-      - 🇦🇹 奥地利AT_2(Youtube:不良林)
-      - 比利时_1(Youtube:不良林)
+      - 🇦🇷 阿根廷(Youtube:不良林)
+      - 波兰_1(Youtube:不良林)
+      - 波兰_2(Youtube:不良林)
+      - 波兰_3(Youtube:不良林)
+      - 波兰_4(Youtube:不良林)
       - 波兰PL_7123（小猪）
       - 🇩🇪 德国_1(Youtube:不良林)
       - 🇩🇪 德国_2(Youtube:不良林)
       - 🇩🇪 德国_3(Youtube:不良林)
       - 🇩🇪 德国_4(Youtube:不良林)
       - 🇫🇷 法国_1(Youtube:不良林)
+      - 🇫🇷 法国_2(Youtube:不良林)
       - 🇺🇸 美国_1(Youtube:不良林)
       - 🇺🇸 美国_2(Youtube:不良林)
-      - 斯洛伐克(Youtube:不良林)
-      - 以色列(Youtube:不良林)
-      - 🇮🇹 意大利(Youtube:不良林)
+      - 🇺🇸 美国_3(Youtube:不良林)
+      - 🇺🇸 美国_4(Youtube:不良林)
+      - 斯洛伐克_1(Youtube:不良林)
+      - 🇮🇹 意大利_1(Youtube:不良林)
+      - 🇮🇹 意大利_2(Youtube:不良林)
       - 🇬🇧 英国_1(Youtube:不良林)
       - 🇬🇧 英国_2(Youtube:不良林)
   - name: 🍎 苹果服务
@@ -146,22 +164,25 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇮🇪 爱尔兰_1(Youtube:不良林)
-      - 🇦🇹 奥地利AT_1(Youtube:不良林)
-      - 🇦🇹 奥地利AT_1341（小猪）
-      - 🇦🇹 奥地利AT_2(Youtube:不良林)
-      - 比利时_1(Youtube:不良林)
+      - 🇦🇷 阿根廷(Youtube:不良林)
+      - 波兰_1(Youtube:不良林)
+      - 波兰_2(Youtube:不良林)
+      - 波兰_3(Youtube:不良林)
+      - 波兰_4(Youtube:不良林)
       - 波兰PL_7123（小猪）
       - 🇩🇪 德国_1(Youtube:不良林)
       - 🇩🇪 德国_2(Youtube:不良林)
       - 🇩🇪 德国_3(Youtube:不良林)
       - 🇩🇪 德国_4(Youtube:不良林)
       - 🇫🇷 法国_1(Youtube:不良林)
+      - 🇫🇷 法国_2(Youtube:不良林)
       - 🇺🇸 美国_1(Youtube:不良林)
       - 🇺🇸 美国_2(Youtube:不良林)
-      - 斯洛伐克(Youtube:不良林)
-      - 以色列(Youtube:不良林)
-      - 🇮🇹 意大利(Youtube:不良林)
+      - 🇺🇸 美国_3(Youtube:不良林)
+      - 🇺🇸 美国_4(Youtube:不良林)
+      - 斯洛伐克_1(Youtube:不良林)
+      - 🇮🇹 意大利_1(Youtube:不良林)
+      - 🇮🇹 意大利_2(Youtube:不良林)
       - 🇬🇧 英国_1(Youtube:不良林)
       - 🇬🇧 英国_2(Youtube:不良林)
   - name: 📢 谷歌FCM
@@ -170,22 +191,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇪 爱尔兰_1(Youtube:不良林)
-      - 🇦🇹 奥地利AT_1(Youtube:不良林)
-      - 🇦🇹 奥地利AT_1341（小猪）
-      - 🇦🇹 奥地利AT_2(Youtube:不良林)
-      - 比利时_1(Youtube:不良林)
+      - 🇦🇷 阿根廷(Youtube:不良林)
+      - 波兰_1(Youtube:不良林)
+      - 波兰_2(Youtube:不良林)
+      - 波兰_3(Youtube:不良林)
+      - 波兰_4(Youtube:不良林)
       - 波兰PL_7123（小猪）
       - 🇩🇪 德国_1(Youtube:不良林)
       - 🇩🇪 德国_2(Youtube:不良林)
       - 🇩🇪 德国_3(Youtube:不良林)
       - 🇩🇪 德国_4(Youtube:不良林)
       - 🇫🇷 法国_1(Youtube:不良林)
+      - 🇫🇷 法国_2(Youtube:不良林)
       - 🇺🇸 美国_1(Youtube:不良林)
       - 🇺🇸 美国_2(Youtube:不良林)
-      - 斯洛伐克(Youtube:不良林)
-      - 以色列(Youtube:不良林)
-      - 🇮🇹 意大利(Youtube:不良林)
+      - 🇺🇸 美国_3(Youtube:不良林)
+      - 🇺🇸 美国_4(Youtube:不良林)
+      - 斯洛伐克_1(Youtube:不良林)
+      - 🇮🇹 意大利_1(Youtube:不良林)
+      - 🇮🇹 意大利_2(Youtube:不良林)
       - 🇬🇧 英国_1(Youtube:不良林)
       - 🇬🇧 英国_2(Youtube:不良林)
   - name: 🎯 全球直连
@@ -210,22 +234,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇪 爱尔兰_1(Youtube:不良林)
-      - 🇦🇹 奥地利AT_1(Youtube:不良林)
-      - 🇦🇹 奥地利AT_1341（小猪）
-      - 🇦🇹 奥地利AT_2(Youtube:不良林)
-      - 比利时_1(Youtube:不良林)
+      - 🇦🇷 阿根廷(Youtube:不良林)
+      - 波兰_1(Youtube:不良林)
+      - 波兰_2(Youtube:不良林)
+      - 波兰_3(Youtube:不良林)
+      - 波兰_4(Youtube:不良林)
       - 波兰PL_7123（小猪）
       - 🇩🇪 德国_1(Youtube:不良林)
       - 🇩🇪 德国_2(Youtube:不良林)
       - 🇩🇪 德国_3(Youtube:不良林)
       - 🇩🇪 德国_4(Youtube:不良林)
       - 🇫🇷 法国_1(Youtube:不良林)
+      - 🇫🇷 法国_2(Youtube:不良林)
       - 🇺🇸 美国_1(Youtube:不良林)
       - 🇺🇸 美国_2(Youtube:不良林)
-      - 斯洛伐克(Youtube:不良林)
-      - 以色列(Youtube:不良林)
-      - 🇮🇹 意大利(Youtube:不良林)
+      - 🇺🇸 美国_3(Youtube:不良林)
+      - 🇺🇸 美国_4(Youtube:不良林)
+      - 斯洛伐克_1(Youtube:不良林)
+      - 🇮🇹 意大利_1(Youtube:不良林)
+      - 🇮🇹 意大利_2(Youtube:不良林)
       - 🇬🇧 英国_1(Youtube:不良林)
       - 🇬🇧 英国_2(Youtube:不良林)
 rules:
