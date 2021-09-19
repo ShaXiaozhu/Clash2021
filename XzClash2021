@@ -6,18 +6,15 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇦🇷 阿根廷AR_1, server: 91.206.168.66, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 比利时_1, server: 91.90.123.133, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 波黑_1, server: 185.212.111.6, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 波兰PL_7123（小猪）, server: 5.187.49.189, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 比利时_1, server: 5.253.205.179, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
   - {name: 🇩🇰 丹麦DK_1, server: 193.29.107.237, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇩🇰 丹麦DK_1 2, server: 45.12.221.179, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇩🇪 德国DE_1, server: 138.199.19.179, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇩🇪 德国DE_2, server: 193.29.106.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇦 加拿大CA_1, server: 198.8.92.67, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇨🇦 加拿大CA_2, server: 66.115.147.77, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 🇺🇸 美国US_2, server: 195.181.171.233, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国US_4, server: 212.102.44.86, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇨🇭 瑞士CH_1, server: 84.17.53.227, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇩🇪 德国DE_3, server: 185.102.219.6, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇺🇸 美国US_1, server: 195.181.171.233, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国US_2, server: 212.102.44.86, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇮🇹 意大利IT_1, server: 212.102.54.181, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 🇬🇧 英国_1, server: 194.37.96.213, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
   - {name: 🇬🇧 英国_2, server: 89.238.130.227, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
 proxy-groups:
@@ -26,18 +23,15 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇦🇷 阿根廷AR_1
       - 比利时_1
-      - 波黑_1
-      - 波兰PL_7123（小猪）
       - 🇩🇰 丹麦DK_1
+      - 🇩🇰 丹麦DK_1 2
       - 🇩🇪 德国DE_1
       - 🇩🇪 德国DE_2
-      - 🇨🇦 加拿大CA_1
-      - 🇨🇦 加拿大CA_2
+      - 🇩🇪 德国DE_3
+      - 🇺🇸 美国US_1
       - 🇺🇸 美国US_2
-      - 🇺🇸 美国US_4
-      - 🇨🇭 瑞士CH_1
+      - 🇮🇹 意大利IT_1
       - 🇬🇧 英国_1
       - 🇬🇧 英国_2
   - name: ♻️ 自动选择
@@ -46,18 +40,15 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇦🇷 阿根廷AR_1
       - 比利时_1
-      - 波黑_1
-      - 波兰PL_7123（小猪）
       - 🇩🇰 丹麦DK_1
+      - 🇩🇰 丹麦DK_1 2
       - 🇩🇪 德国DE_1
       - 🇩🇪 德国DE_2
-      - 🇨🇦 加拿大CA_1
-      - 🇨🇦 加拿大CA_2
+      - 🇩🇪 德国DE_3
+      - 🇺🇸 美国US_1
       - 🇺🇸 美国US_2
-      - 🇺🇸 美国US_4
-      - 🇨🇭 瑞士CH_1
+      - 🇮🇹 意大利IT_1
       - 🇬🇧 英国_1
       - 🇬🇧 英国_2
   - name: 🌍 国外媒体
@@ -66,18 +57,15 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇦🇷 阿根廷AR_1
       - 比利时_1
-      - 波黑_1
-      - 波兰PL_7123（小猪）
       - 🇩🇰 丹麦DK_1
+      - 🇩🇰 丹麦DK_1 2
       - 🇩🇪 德国DE_1
       - 🇩🇪 德国DE_2
-      - 🇨🇦 加拿大CA_1
-      - 🇨🇦 加拿大CA_2
+      - 🇩🇪 德国DE_3
+      - 🇺🇸 美国US_1
       - 🇺🇸 美国US_2
-      - 🇺🇸 美国US_4
-      - 🇨🇭 瑞士CH_1
+      - 🇮🇹 意大利IT_1
       - 🇬🇧 英国_1
       - 🇬🇧 英国_2
   - name: 📲 电报信息
@@ -85,18 +73,15 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇦🇷 阿根廷AR_1
       - 比利时_1
-      - 波黑_1
-      - 波兰PL_7123（小猪）
       - 🇩🇰 丹麦DK_1
+      - 🇩🇰 丹麦DK_1 2
       - 🇩🇪 德国DE_1
       - 🇩🇪 德国DE_2
-      - 🇨🇦 加拿大CA_1
-      - 🇨🇦 加拿大CA_2
+      - 🇩🇪 德国DE_3
+      - 🇺🇸 美国US_1
       - 🇺🇸 美国US_2
-      - 🇺🇸 美国US_4
-      - 🇨🇭 瑞士CH_1
+      - 🇮🇹 意大利IT_1
       - 🇬🇧 英国_1
       - 🇬🇧 英国_2
   - name: Ⓜ️ 微软服务
@@ -104,18 +89,15 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇦🇷 阿根廷AR_1
       - 比利时_1
-      - 波黑_1
-      - 波兰PL_7123（小猪）
       - 🇩🇰 丹麦DK_1
+      - 🇩🇰 丹麦DK_1 2
       - 🇩🇪 德国DE_1
       - 🇩🇪 德国DE_2
-      - 🇨🇦 加拿大CA_1
-      - 🇨🇦 加拿大CA_2
+      - 🇩🇪 德国DE_3
+      - 🇺🇸 美国US_1
       - 🇺🇸 美国US_2
-      - 🇺🇸 美国US_4
-      - 🇨🇭 瑞士CH_1
+      - 🇮🇹 意大利IT_1
       - 🇬🇧 英国_1
       - 🇬🇧 英国_2
   - name: 🍎 苹果服务
@@ -123,18 +105,15 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇦🇷 阿根廷AR_1
       - 比利时_1
-      - 波黑_1
-      - 波兰PL_7123（小猪）
       - 🇩🇰 丹麦DK_1
+      - 🇩🇰 丹麦DK_1 2
       - 🇩🇪 德国DE_1
       - 🇩🇪 德国DE_2
-      - 🇨🇦 加拿大CA_1
-      - 🇨🇦 加拿大CA_2
+      - 🇩🇪 德国DE_3
+      - 🇺🇸 美国US_1
       - 🇺🇸 美国US_2
-      - 🇺🇸 美国US_4
-      - 🇨🇭 瑞士CH_1
+      - 🇮🇹 意大利IT_1
       - 🇬🇧 英国_1
       - 🇬🇧 英国_2
   - name: 📢 谷歌FCM
@@ -143,18 +122,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇷 阿根廷AR_1
       - 比利时_1
-      - 波黑_1
-      - 波兰PL_7123（小猪）
       - 🇩🇰 丹麦DK_1
+      - 🇩🇰 丹麦DK_1 2
       - 🇩🇪 德国DE_1
       - 🇩🇪 德国DE_2
-      - 🇨🇦 加拿大CA_1
-      - 🇨🇦 加拿大CA_2
+      - 🇩🇪 德国DE_3
+      - 🇺🇸 美国US_1
       - 🇺🇸 美国US_2
-      - 🇺🇸 美国US_4
-      - 🇨🇭 瑞士CH_1
+      - 🇮🇹 意大利IT_1
       - 🇬🇧 英国_1
       - 🇬🇧 英国_2
   - name: 🎯 全球直连
@@ -179,18 +155,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇷 阿根廷AR_1
       - 比利时_1
-      - 波黑_1
-      - 波兰PL_7123（小猪）
       - 🇩🇰 丹麦DK_1
+      - 🇩🇰 丹麦DK_1 2
       - 🇩🇪 德国DE_1
       - 🇩🇪 德国DE_2
-      - 🇨🇦 加拿大CA_1
-      - 🇨🇦 加拿大CA_2
+      - 🇩🇪 德国DE_3
+      - 🇺🇸 美国US_1
       - 🇺🇸 美国US_2
-      - 🇺🇸 美国US_4
-      - 🇨🇭 瑞士CH_1
+      - 🇮🇹 意大利IT_1
       - 🇬🇧 英国_1
       - 🇬🇧 英国_2
 rules:
