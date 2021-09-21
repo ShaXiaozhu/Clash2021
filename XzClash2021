@@ -12,11 +12,17 @@ proxies:
   - {name: 🇩🇪 德国DE_1, server: 138.199.19.179, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇩🇪 德国DE_2, server: 193.29.106.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇩🇪 德国DE_3, server: 185.102.219.6, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇩🇪 德国DE_9, server: 37.120.217.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 洛杉矶_1, server: 185.242.5.149, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
   - {name: 🇺🇸 美国US_1, server: 195.181.171.233, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国US_2, server: 212.102.44.86, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国US_2, server: 66.115.177.156, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 美国US_3, server: 212.102.44.86, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇹🇭 泰国TH_1, server: 27.131.164.100, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
   - {name: 🇮🇹 意大利IT_1, server: 212.102.54.181, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇬🇧 英国_1, server: 194.37.96.213, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇬🇧 英国_2, server: 89.238.130.227, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇮🇹 意大利IT_2, server: 82.102.26.93, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇬🇧 英国GB_1, server: 194.37.96.213, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇬🇧 英国GB_2, server: 89.238.130.227, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇬🇧 英国GB_3, server: 193.118.60.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -29,11 +35,17 @@ proxy-groups:
       - 🇩🇪 德国DE_1
       - 🇩🇪 德国DE_2
       - 🇩🇪 德国DE_3
+      - 🇩🇪 德国DE_9
+      - 🇺🇸 洛杉矶_1
       - 🇺🇸 美国US_1
       - 🇺🇸 美国US_2
+      - 🇺🇸 美国US_3
+      - 🇹🇭 泰国TH_1
       - 🇮🇹 意大利IT_1
-      - 🇬🇧 英国_1
-      - 🇬🇧 英国_2
+      - 🇮🇹 意大利IT_2
+      - 🇬🇧 英国GB_1
+      - 🇬🇧 英国GB_2
+      - 🇬🇧 英国GB_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -46,11 +58,17 @@ proxy-groups:
       - 🇩🇪 德国DE_1
       - 🇩🇪 德国DE_2
       - 🇩🇪 德国DE_3
+      - 🇩🇪 德国DE_9
+      - 🇺🇸 洛杉矶_1
       - 🇺🇸 美国US_1
       - 🇺🇸 美国US_2
+      - 🇺🇸 美国US_3
+      - 🇹🇭 泰国TH_1
       - 🇮🇹 意大利IT_1
-      - 🇬🇧 英国_1
-      - 🇬🇧 英国_2
+      - 🇮🇹 意大利IT_2
+      - 🇬🇧 英国GB_1
+      - 🇬🇧 英国GB_2
+      - 🇬🇧 英国GB_3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -63,11 +81,17 @@ proxy-groups:
       - 🇩🇪 德国DE_1
       - 🇩🇪 德国DE_2
       - 🇩🇪 德国DE_3
+      - 🇩🇪 德国DE_9
+      - 🇺🇸 洛杉矶_1
       - 🇺🇸 美国US_1
       - 🇺🇸 美国US_2
+      - 🇺🇸 美国US_3
+      - 🇹🇭 泰国TH_1
       - 🇮🇹 意大利IT_1
-      - 🇬🇧 英国_1
-      - 🇬🇧 英国_2
+      - 🇮🇹 意大利IT_2
+      - 🇬🇧 英国GB_1
+      - 🇬🇧 英国GB_2
+      - 🇬🇧 英国GB_3
   - name: 📲 电报信息
     type: select
     proxies:
@@ -79,11 +103,17 @@ proxy-groups:
       - 🇩🇪 德国DE_1
       - 🇩🇪 德国DE_2
       - 🇩🇪 德国DE_3
+      - 🇩🇪 德国DE_9
+      - 🇺🇸 洛杉矶_1
       - 🇺🇸 美国US_1
       - 🇺🇸 美国US_2
+      - 🇺🇸 美国US_3
+      - 🇹🇭 泰国TH_1
       - 🇮🇹 意大利IT_1
-      - 🇬🇧 英国_1
-      - 🇬🇧 英国_2
+      - 🇮🇹 意大利IT_2
+      - 🇬🇧 英国GB_1
+      - 🇬🇧 英国GB_2
+      - 🇬🇧 英国GB_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -95,11 +125,17 @@ proxy-groups:
       - 🇩🇪 德国DE_1
       - 🇩🇪 德国DE_2
       - 🇩🇪 德国DE_3
+      - 🇩🇪 德国DE_9
+      - 🇺🇸 洛杉矶_1
       - 🇺🇸 美国US_1
       - 🇺🇸 美国US_2
+      - 🇺🇸 美国US_3
+      - 🇹🇭 泰国TH_1
       - 🇮🇹 意大利IT_1
-      - 🇬🇧 英国_1
-      - 🇬🇧 英国_2
+      - 🇮🇹 意大利IT_2
+      - 🇬🇧 英国GB_1
+      - 🇬🇧 英国GB_2
+      - 🇬🇧 英国GB_3
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -111,11 +147,17 @@ proxy-groups:
       - 🇩🇪 德国DE_1
       - 🇩🇪 德国DE_2
       - 🇩🇪 德国DE_3
+      - 🇩🇪 德国DE_9
+      - 🇺🇸 洛杉矶_1
       - 🇺🇸 美国US_1
       - 🇺🇸 美国US_2
+      - 🇺🇸 美国US_3
+      - 🇹🇭 泰国TH_1
       - 🇮🇹 意大利IT_1
-      - 🇬🇧 英国_1
-      - 🇬🇧 英国_2
+      - 🇮🇹 意大利IT_2
+      - 🇬🇧 英国GB_1
+      - 🇬🇧 英国GB_2
+      - 🇬🇧 英国GB_3
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -128,11 +170,17 @@ proxy-groups:
       - 🇩🇪 德国DE_1
       - 🇩🇪 德国DE_2
       - 🇩🇪 德国DE_3
+      - 🇩🇪 德国DE_9
+      - 🇺🇸 洛杉矶_1
       - 🇺🇸 美国US_1
       - 🇺🇸 美国US_2
+      - 🇺🇸 美国US_3
+      - 🇹🇭 泰国TH_1
       - 🇮🇹 意大利IT_1
-      - 🇬🇧 英国_1
-      - 🇬🇧 英国_2
+      - 🇮🇹 意大利IT_2
+      - 🇬🇧 英国GB_1
+      - 🇬🇧 英国GB_2
+      - 🇬🇧 英国GB_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -161,11 +209,17 @@ proxy-groups:
       - 🇩🇪 德国DE_1
       - 🇩🇪 德国DE_2
       - 🇩🇪 德国DE_3
+      - 🇩🇪 德国DE_9
+      - 🇺🇸 洛杉矶_1
       - 🇺🇸 美国US_1
       - 🇺🇸 美国US_2
+      - 🇺🇸 美国US_3
+      - 🇹🇭 泰国TH_1
       - 🇮🇹 意大利IT_1
-      - 🇬🇧 英国_1
-      - 🇬🇧 英国_2
+      - 🇮🇹 意大利IT_2
+      - 🇬🇧 英国GB_1
+      - 🇬🇧 英国GB_2
+      - 🇬🇧 英国GB_3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
