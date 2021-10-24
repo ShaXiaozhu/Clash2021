@@ -4,175 +4,439 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇧🇷 巴西_1, server: 128.14.222.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 波兰_1, server: 51.77.53.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇩🇪 德国_1, server: 193.108.118.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 波兰BL_1, server: 51.77.53.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇫🇷 法国_1, server: 185.166.84.81, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: 🇳🇱 荷兰_1, server: 188.95.55.114, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: 🇨🇦 加拿大CA_1, server: 134.195.196.79, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大CA_2, server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 美国US_1, server: 212.102.44.86, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 美国US_2, server: 66.115.177.156, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇦 加拿大_1, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大_10, server: 198.57.27.233, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大_11, server: 134.195.196.79, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大_12, server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大_13, server: 134.195.196.163, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大_2, server: 134.195.196.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大_3, server: 134.195.196.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大_4, server: 198.57.27.233, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大_5, server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大_6, server: 134.195.196.97, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大_7, server: 134.195.196.154, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大_8, server: 134.195.196.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大_9, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大CA_14, server: 134.195.196.79, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大CA_15, server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 美国_1, server: 66.115.177.141, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 美国_10, server: 66.115.177.143, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇲 美国_11, server: 167.88.63.28, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇲 美国_12, server: 66.115.177.143, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇺🇲 美国_13, server: 66.115.177.156, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇲 美国_2, server: 66.115.177.156, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 美国_3, server: 128.14.222.220, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 美国_4, server: 167.88.63.119, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇲 美国_5, server: 66.115.177.141, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇺🇲 美国_6, server: 167.88.63.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 美国_7, server: 167.88.63.28, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 美国_8, server: 79.110.54.133, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇲 美国_9, server: 38.107.226.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇭 瑞士_1, server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
   - {name: 🇹🇭 泰国TH_1, server: 27.131.164.100, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
-  - {name: 🇸🇬 新加坡_1, server: 192.169.112.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇮🇹 意大利IT_2, server: 82.102.26.93, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
   - {name: 🇮🇳 印度_1, server: 172.105.63.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇮🇳 印度_2, server: 192.46.211.249, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇮🇳 印度_3, server: 45.79.127.97, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇮🇳 印度_4, server: 172.105.55.72, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇮🇳 印度_5, server: 172.105.57.249, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇮🇳 印度_6, server: 172.105.59.32, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇮🇳 印度_7, server: 172.105.55.72, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇮🇳 印度_8, server: 45.79.127.97, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇬🇧 英国GB_1, server: 37.120.233.253, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇬🇧 英国GB_2, server: 89.238.130.227, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇬🇧 英国GB_2, server: 193.118.60.177, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇬🇧 英国GB_3, server: 193.118.60.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 英国GB_4, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 英国GB_5, server: 193.118.60.173, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇬🇧 英国GB_6, server: 172.99.190.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇬🇧 英国GB_7, server: 172.99.190.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇬🇧 英国GB_8, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇧🇷 巴西_1
-      - 波兰_1
-      - 🇩🇪 德国_1
+      - 波兰BL_1
       - 🇫🇷 法国_1
-      - 🇳🇱 荷兰_1
-      - 🇨🇦 加拿大CA_1
-      - 🇨🇦 加拿大CA_2
-      - 🇺🇸 美国US_1
-      - 🇺🇸 美国US_2
+      - 🇨🇦 加拿大_1
+      - 🇨🇦 加拿大_10
+      - 🇨🇦 加拿大_11
+      - 🇨🇦 加拿大_12
+      - 🇨🇦 加拿大_13
+      - 🇨🇦 加拿大_2
+      - 🇨🇦 加拿大_3
+      - 🇨🇦 加拿大_4
+      - 🇨🇦 加拿大_5
+      - 🇨🇦 加拿大_6
+      - 🇨🇦 加拿大_7
+      - 🇨🇦 加拿大_8
+      - 🇨🇦 加拿大_9
+      - 🇨🇦 加拿大CA_14
+      - 🇨🇦 加拿大CA_15
+      - 🇺🇲 美国_1
+      - 🇺🇲 美国_10
+      - 🇺🇲 美国_11
+      - 🇺🇲 美国_12
+      - 🇺🇲 美国_13
+      - 🇺🇲 美国_2
+      - 🇺🇲 美国_3
+      - 🇺🇲 美国_4
+      - 🇺🇲 美国_5
+      - 🇺🇲 美国_6
+      - 🇺🇲 美国_7
+      - 🇺🇲 美国_8
+      - 🇺🇲 美国_9
+      - 🇨🇭 瑞士_1
       - 🇹🇭 泰国TH_1
-      - 🇸🇬 新加坡_1
       - 🇮🇹 意大利IT_2
       - 🇮🇳 印度_1
+      - 🇮🇳 印度_2
+      - 🇮🇳 印度_3
+      - 🇮🇳 印度_4
+      - 🇮🇳 印度_5
+      - 🇮🇳 印度_6
+      - 🇮🇳 印度_7
+      - 🇮🇳 印度_8
       - 🇬🇧 英国GB_1
       - 🇬🇧 英国GB_2
       - 🇬🇧 英国GB_3
+      - 🇬🇧 英国GB_4
+      - 🇬🇧 英国GB_5
+      - 🇬🇧 英国GB_6
+      - 🇬🇧 英国GB_7
+      - 🇬🇧 英国GB_8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇧🇷 巴西_1
-      - 波兰_1
-      - 🇩🇪 德国_1
+      - 波兰BL_1
       - 🇫🇷 法国_1
-      - 🇳🇱 荷兰_1
-      - 🇨🇦 加拿大CA_1
-      - 🇨🇦 加拿大CA_2
-      - 🇺🇸 美国US_1
-      - 🇺🇸 美国US_2
+      - 🇨🇦 加拿大_1
+      - 🇨🇦 加拿大_10
+      - 🇨🇦 加拿大_11
+      - 🇨🇦 加拿大_12
+      - 🇨🇦 加拿大_13
+      - 🇨🇦 加拿大_2
+      - 🇨🇦 加拿大_3
+      - 🇨🇦 加拿大_4
+      - 🇨🇦 加拿大_5
+      - 🇨🇦 加拿大_6
+      - 🇨🇦 加拿大_7
+      - 🇨🇦 加拿大_8
+      - 🇨🇦 加拿大_9
+      - 🇨🇦 加拿大CA_14
+      - 🇨🇦 加拿大CA_15
+      - 🇺🇲 美国_1
+      - 🇺🇲 美国_10
+      - 🇺🇲 美国_11
+      - 🇺🇲 美国_12
+      - 🇺🇲 美国_13
+      - 🇺🇲 美国_2
+      - 🇺🇲 美国_3
+      - 🇺🇲 美国_4
+      - 🇺🇲 美国_5
+      - 🇺🇲 美国_6
+      - 🇺🇲 美国_7
+      - 🇺🇲 美国_8
+      - 🇺🇲 美国_9
+      - 🇨🇭 瑞士_1
       - 🇹🇭 泰国TH_1
-      - 🇸🇬 新加坡_1
       - 🇮🇹 意大利IT_2
       - 🇮🇳 印度_1
+      - 🇮🇳 印度_2
+      - 🇮🇳 印度_3
+      - 🇮🇳 印度_4
+      - 🇮🇳 印度_5
+      - 🇮🇳 印度_6
+      - 🇮🇳 印度_7
+      - 🇮🇳 印度_8
       - 🇬🇧 英国GB_1
       - 🇬🇧 英国GB_2
       - 🇬🇧 英国GB_3
+      - 🇬🇧 英国GB_4
+      - 🇬🇧 英国GB_5
+      - 🇬🇧 英国GB_6
+      - 🇬🇧 英国GB_7
+      - 🇬🇧 英国GB_8
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇧🇷 巴西_1
-      - 波兰_1
-      - 🇩🇪 德国_1
+      - 波兰BL_1
       - 🇫🇷 法国_1
-      - 🇳🇱 荷兰_1
-      - 🇨🇦 加拿大CA_1
-      - 🇨🇦 加拿大CA_2
-      - 🇺🇸 美国US_1
-      - 🇺🇸 美国US_2
+      - 🇨🇦 加拿大_1
+      - 🇨🇦 加拿大_10
+      - 🇨🇦 加拿大_11
+      - 🇨🇦 加拿大_12
+      - 🇨🇦 加拿大_13
+      - 🇨🇦 加拿大_2
+      - 🇨🇦 加拿大_3
+      - 🇨🇦 加拿大_4
+      - 🇨🇦 加拿大_5
+      - 🇨🇦 加拿大_6
+      - 🇨🇦 加拿大_7
+      - 🇨🇦 加拿大_8
+      - 🇨🇦 加拿大_9
+      - 🇨🇦 加拿大CA_14
+      - 🇨🇦 加拿大CA_15
+      - 🇺🇲 美国_1
+      - 🇺🇲 美国_10
+      - 🇺🇲 美国_11
+      - 🇺🇲 美国_12
+      - 🇺🇲 美国_13
+      - 🇺🇲 美国_2
+      - 🇺🇲 美国_3
+      - 🇺🇲 美国_4
+      - 🇺🇲 美国_5
+      - 🇺🇲 美国_6
+      - 🇺🇲 美国_7
+      - 🇺🇲 美国_8
+      - 🇺🇲 美国_9
+      - 🇨🇭 瑞士_1
       - 🇹🇭 泰国TH_1
-      - 🇸🇬 新加坡_1
       - 🇮🇹 意大利IT_2
       - 🇮🇳 印度_1
+      - 🇮🇳 印度_2
+      - 🇮🇳 印度_3
+      - 🇮🇳 印度_4
+      - 🇮🇳 印度_5
+      - 🇮🇳 印度_6
+      - 🇮🇳 印度_7
+      - 🇮🇳 印度_8
       - 🇬🇧 英国GB_1
       - 🇬🇧 英国GB_2
       - 🇬🇧 英国GB_3
+      - 🇬🇧 英国GB_4
+      - 🇬🇧 英国GB_5
+      - 🇬🇧 英国GB_6
+      - 🇬🇧 英国GB_7
+      - 🇬🇧 英国GB_8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇧🇷 巴西_1
-      - 波兰_1
-      - 🇩🇪 德国_1
+      - 波兰BL_1
       - 🇫🇷 法国_1
-      - 🇳🇱 荷兰_1
-      - 🇨🇦 加拿大CA_1
-      - 🇨🇦 加拿大CA_2
-      - 🇺🇸 美国US_1
-      - 🇺🇸 美国US_2
+      - 🇨🇦 加拿大_1
+      - 🇨🇦 加拿大_10
+      - 🇨🇦 加拿大_11
+      - 🇨🇦 加拿大_12
+      - 🇨🇦 加拿大_13
+      - 🇨🇦 加拿大_2
+      - 🇨🇦 加拿大_3
+      - 🇨🇦 加拿大_4
+      - 🇨🇦 加拿大_5
+      - 🇨🇦 加拿大_6
+      - 🇨🇦 加拿大_7
+      - 🇨🇦 加拿大_8
+      - 🇨🇦 加拿大_9
+      - 🇨🇦 加拿大CA_14
+      - 🇨🇦 加拿大CA_15
+      - 🇺🇲 美国_1
+      - 🇺🇲 美国_10
+      - 🇺🇲 美国_11
+      - 🇺🇲 美国_12
+      - 🇺🇲 美国_13
+      - 🇺🇲 美国_2
+      - 🇺🇲 美国_3
+      - 🇺🇲 美国_4
+      - 🇺🇲 美国_5
+      - 🇺🇲 美国_6
+      - 🇺🇲 美国_7
+      - 🇺🇲 美国_8
+      - 🇺🇲 美国_9
+      - 🇨🇭 瑞士_1
       - 🇹🇭 泰国TH_1
-      - 🇸🇬 新加坡_1
       - 🇮🇹 意大利IT_2
       - 🇮🇳 印度_1
+      - 🇮🇳 印度_2
+      - 🇮🇳 印度_3
+      - 🇮🇳 印度_4
+      - 🇮🇳 印度_5
+      - 🇮🇳 印度_6
+      - 🇮🇳 印度_7
+      - 🇮🇳 印度_8
       - 🇬🇧 英国GB_1
       - 🇬🇧 英国GB_2
       - 🇬🇧 英国GB_3
+      - 🇬🇧 英国GB_4
+      - 🇬🇧 英国GB_5
+      - 🇬🇧 英国GB_6
+      - 🇬🇧 英国GB_7
+      - 🇬🇧 英国GB_8
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇧🇷 巴西_1
-      - 波兰_1
-      - 🇩🇪 德国_1
+      - 波兰BL_1
       - 🇫🇷 法国_1
-      - 🇳🇱 荷兰_1
-      - 🇨🇦 加拿大CA_1
-      - 🇨🇦 加拿大CA_2
-      - 🇺🇸 美国US_1
-      - 🇺🇸 美国US_2
+      - 🇨🇦 加拿大_1
+      - 🇨🇦 加拿大_10
+      - 🇨🇦 加拿大_11
+      - 🇨🇦 加拿大_12
+      - 🇨🇦 加拿大_13
+      - 🇨🇦 加拿大_2
+      - 🇨🇦 加拿大_3
+      - 🇨🇦 加拿大_4
+      - 🇨🇦 加拿大_5
+      - 🇨🇦 加拿大_6
+      - 🇨🇦 加拿大_7
+      - 🇨🇦 加拿大_8
+      - 🇨🇦 加拿大_9
+      - 🇨🇦 加拿大CA_14
+      - 🇨🇦 加拿大CA_15
+      - 🇺🇲 美国_1
+      - 🇺🇲 美国_10
+      - 🇺🇲 美国_11
+      - 🇺🇲 美国_12
+      - 🇺🇲 美国_13
+      - 🇺🇲 美国_2
+      - 🇺🇲 美国_3
+      - 🇺🇲 美国_4
+      - 🇺🇲 美国_5
+      - 🇺🇲 美国_6
+      - 🇺🇲 美国_7
+      - 🇺🇲 美国_8
+      - 🇺🇲 美国_9
+      - 🇨🇭 瑞士_1
       - 🇹🇭 泰国TH_1
-      - 🇸🇬 新加坡_1
       - 🇮🇹 意大利IT_2
       - 🇮🇳 印度_1
+      - 🇮🇳 印度_2
+      - 🇮🇳 印度_3
+      - 🇮🇳 印度_4
+      - 🇮🇳 印度_5
+      - 🇮🇳 印度_6
+      - 🇮🇳 印度_7
+      - 🇮🇳 印度_8
       - 🇬🇧 英国GB_1
       - 🇬🇧 英国GB_2
       - 🇬🇧 英国GB_3
+      - 🇬🇧 英国GB_4
+      - 🇬🇧 英国GB_5
+      - 🇬🇧 英国GB_6
+      - 🇬🇧 英国GB_7
+      - 🇬🇧 英国GB_8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇧🇷 巴西_1
-      - 波兰_1
-      - 🇩🇪 德国_1
+      - 波兰BL_1
       - 🇫🇷 法国_1
-      - 🇳🇱 荷兰_1
-      - 🇨🇦 加拿大CA_1
-      - 🇨🇦 加拿大CA_2
-      - 🇺🇸 美国US_1
-      - 🇺🇸 美国US_2
+      - 🇨🇦 加拿大_1
+      - 🇨🇦 加拿大_10
+      - 🇨🇦 加拿大_11
+      - 🇨🇦 加拿大_12
+      - 🇨🇦 加拿大_13
+      - 🇨🇦 加拿大_2
+      - 🇨🇦 加拿大_3
+      - 🇨🇦 加拿大_4
+      - 🇨🇦 加拿大_5
+      - 🇨🇦 加拿大_6
+      - 🇨🇦 加拿大_7
+      - 🇨🇦 加拿大_8
+      - 🇨🇦 加拿大_9
+      - 🇨🇦 加拿大CA_14
+      - 🇨🇦 加拿大CA_15
+      - 🇺🇲 美国_1
+      - 🇺🇲 美国_10
+      - 🇺🇲 美国_11
+      - 🇺🇲 美国_12
+      - 🇺🇲 美国_13
+      - 🇺🇲 美国_2
+      - 🇺🇲 美国_3
+      - 🇺🇲 美国_4
+      - 🇺🇲 美国_5
+      - 🇺🇲 美国_6
+      - 🇺🇲 美国_7
+      - 🇺🇲 美国_8
+      - 🇺🇲 美国_9
+      - 🇨🇭 瑞士_1
       - 🇹🇭 泰国TH_1
-      - 🇸🇬 新加坡_1
       - 🇮🇹 意大利IT_2
       - 🇮🇳 印度_1
+      - 🇮🇳 印度_2
+      - 🇮🇳 印度_3
+      - 🇮🇳 印度_4
+      - 🇮🇳 印度_5
+      - 🇮🇳 印度_6
+      - 🇮🇳 印度_7
+      - 🇮🇳 印度_8
       - 🇬🇧 英国GB_1
       - 🇬🇧 英国GB_2
       - 🇬🇧 英国GB_3
+      - 🇬🇧 英国GB_4
+      - 🇬🇧 英国GB_5
+      - 🇬🇧 英国GB_6
+      - 🇬🇧 英国GB_7
+      - 🇬🇧 英国GB_8
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇧🇷 巴西_1
-      - 波兰_1
-      - 🇩🇪 德国_1
+      - 波兰BL_1
       - 🇫🇷 法国_1
-      - 🇳🇱 荷兰_1
-      - 🇨🇦 加拿大CA_1
-      - 🇨🇦 加拿大CA_2
-      - 🇺🇸 美国US_1
-      - 🇺🇸 美国US_2
+      - 🇨🇦 加拿大_1
+      - 🇨🇦 加拿大_10
+      - 🇨🇦 加拿大_11
+      - 🇨🇦 加拿大_12
+      - 🇨🇦 加拿大_13
+      - 🇨🇦 加拿大_2
+      - 🇨🇦 加拿大_3
+      - 🇨🇦 加拿大_4
+      - 🇨🇦 加拿大_5
+      - 🇨🇦 加拿大_6
+      - 🇨🇦 加拿大_7
+      - 🇨🇦 加拿大_8
+      - 🇨🇦 加拿大_9
+      - 🇨🇦 加拿大CA_14
+      - 🇨🇦 加拿大CA_15
+      - 🇺🇲 美国_1
+      - 🇺🇲 美国_10
+      - 🇺🇲 美国_11
+      - 🇺🇲 美国_12
+      - 🇺🇲 美国_13
+      - 🇺🇲 美国_2
+      - 🇺🇲 美国_3
+      - 🇺🇲 美国_4
+      - 🇺🇲 美国_5
+      - 🇺🇲 美国_6
+      - 🇺🇲 美国_7
+      - 🇺🇲 美国_8
+      - 🇺🇲 美国_9
+      - 🇨🇭 瑞士_1
       - 🇹🇭 泰国TH_1
-      - 🇸🇬 新加坡_1
       - 🇮🇹 意大利IT_2
       - 🇮🇳 印度_1
+      - 🇮🇳 印度_2
+      - 🇮🇳 印度_3
+      - 🇮🇳 印度_4
+      - 🇮🇳 印度_5
+      - 🇮🇳 印度_6
+      - 🇮🇳 印度_7
+      - 🇮🇳 印度_8
       - 🇬🇧 英国GB_1
       - 🇬🇧 英国GB_2
       - 🇬🇧 英国GB_3
+      - 🇬🇧 英国GB_4
+      - 🇬🇧 英国GB_5
+      - 🇬🇧 英国GB_6
+      - 🇬🇧 英国GB_7
+      - 🇬🇧 英国GB_8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -195,22 +459,55 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇧🇷 巴西_1
-      - 波兰_1
-      - 🇩🇪 德国_1
+      - 波兰BL_1
       - 🇫🇷 法国_1
-      - 🇳🇱 荷兰_1
-      - 🇨🇦 加拿大CA_1
-      - 🇨🇦 加拿大CA_2
-      - 🇺🇸 美国US_1
-      - 🇺🇸 美国US_2
+      - 🇨🇦 加拿大_1
+      - 🇨🇦 加拿大_10
+      - 🇨🇦 加拿大_11
+      - 🇨🇦 加拿大_12
+      - 🇨🇦 加拿大_13
+      - 🇨🇦 加拿大_2
+      - 🇨🇦 加拿大_3
+      - 🇨🇦 加拿大_4
+      - 🇨🇦 加拿大_5
+      - 🇨🇦 加拿大_6
+      - 🇨🇦 加拿大_7
+      - 🇨🇦 加拿大_8
+      - 🇨🇦 加拿大_9
+      - 🇨🇦 加拿大CA_14
+      - 🇨🇦 加拿大CA_15
+      - 🇺🇲 美国_1
+      - 🇺🇲 美国_10
+      - 🇺🇲 美国_11
+      - 🇺🇲 美国_12
+      - 🇺🇲 美国_13
+      - 🇺🇲 美国_2
+      - 🇺🇲 美国_3
+      - 🇺🇲 美国_4
+      - 🇺🇲 美国_5
+      - 🇺🇲 美国_6
+      - 🇺🇲 美国_7
+      - 🇺🇲 美国_8
+      - 🇺🇲 美国_9
+      - 🇨🇭 瑞士_1
       - 🇹🇭 泰国TH_1
-      - 🇸🇬 新加坡_1
       - 🇮🇹 意大利IT_2
       - 🇮🇳 印度_1
+      - 🇮🇳 印度_2
+      - 🇮🇳 印度_3
+      - 🇮🇳 印度_4
+      - 🇮🇳 印度_5
+      - 🇮🇳 印度_6
+      - 🇮🇳 印度_7
+      - 🇮🇳 印度_8
       - 🇬🇧 英国GB_1
       - 🇬🇧 英国GB_2
       - 🇬🇧 英国GB_3
+      - 🇬🇧 英国GB_4
+      - 🇬🇧 英国GB_5
+      - 🇬🇧 英国GB_6
+      - 🇬🇧 英国GB_7
+      - 🇬🇧 英国GB_8
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -244,6 +541,8 @@ rules:
  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
  - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+ - DOMAIN,xivanalysis.com,🎯 全球直连
+ - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
  - DOMAIN,fairplay.l.qq.com,🎯 全球直连
  - DOMAIN,livew.l.qq.com,🎯 全球直连
  - DOMAIN,vd.l.qq.com,🎯 全球直连
@@ -2008,6 +2307,7 @@ rules:
  - DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msidentity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msn.cn,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msocdn.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msocsp.com,Ⓜ️ 微软服务
@@ -2796,6 +3096,8 @@ rules:
  - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
  - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
  - DOMAIN-SUFFIX,mpyit.com,🎯 全球直连
+ - DOMAIN-SUFFIX,msftconnecttest.com,🎯 全球直连
+ - DOMAIN-SUFFIX,msftncsi.com,🎯 全球直连
  - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,中国,🎯 全球直连
@@ -3260,6 +3562,8 @@ rules:
  - DOMAIN-SUFFIX,lancdns.com,🎯 全球直连
  - DOMAIN-SUFFIX,landiannews.com,🎯 全球直连
  - DOMAIN-SUFFIX,lanzou.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lanzoui.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lanzoux.com,🎯 全球直连
  - DOMAIN-SUFFIX,lemicp.com,🎯 全球直连
  - DOMAIN-SUFFIX,letitfly.me,🎯 全球直连
  - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
@@ -3329,6 +3633,7 @@ rules:
  - DOMAIN-SUFFIX,sspai.com,🎯 全球直连
  - DOMAIN-SUFFIX,startssl.com,🎯 全球直连
  - DOMAIN-SUFFIX,suning.com,🎯 全球直连
+ - DOMAIN-SUFFIX,synology.com,🎯 全球直连
  - DOMAIN-SUFFIX,taihe.com,🎯 全球直连
  - DOMAIN-SUFFIX,th-sjy.com,🎯 全球直连
  - DOMAIN-SUFFIX,tianqi.com,🎯 全球直连
